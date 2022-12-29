@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+
+use v5.36;
+use strict;
+use warnings;
+
+chomp(my $date = $ARGV[1] || `date --rfc-3339=date`);
+my $year =~ s/(\d+)-\d+-\d+/$1/;
+$date =~ s/\d+-\d+-(\d+)/$1/;
+my $dir = "day$date";
+if (-e "$dir") {
+  say("Cannot create today's directory ($dir): already created...");
+  exit -1;
+}
+say "Creating directory $dir...";
+`mkdir $dir`;
+say "Creating files...";
+`touch $dir/$dir.go $dir/mini_input $dir/input`;
+# say "Fetching input...";
+# `curl -o $dir/input https://adventofcode.com/$year/day/$date/input -H 'Cookie: ession='`
+
