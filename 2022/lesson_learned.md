@@ -285,8 +285,5 @@ in the same line that were not independent.
 Eventually solved also 17 and 19 part 2, after the competition ended.
 
 # TODO(s):
-- make folder per year (hopefully will play also next year)
-- create GitHub repository
-- create runner script (e.g. `./run_aoc 12`, run day 12 of Advent of Code)
 - create script to grab input
 - use a command line argument to run either small or big input
