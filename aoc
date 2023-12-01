@@ -4,18 +4,28 @@ use v5.36;
 use strict;
 use warnings;
 
-chomp(my $date = $ARGV[1] || `date --rfc-3339=date`);
-my $year =~ s/(\d+)-\d+-\d+/$1/;
-$date =~ s/\d+-\d+-(\d+)/$1/;
-my $dir = "day$date";
+my $date = `date --rfc-3339=date`;
+my ($year, $day) = $date =~ m/(\d+)-\d+-(\d+)/;
+my $dir = "$year/day$day";
 if (-e "$dir") {
-  say("Cannot create today's directory ($dir): already created...");
+  say "Cannot create today's directory ($dir): already created...";
+  exit -1;
+}
+my $ext;
+if (defined $ARGV[0] && $ARGV[0] eq "--golang") {
+  say "Using golang!";
+  $ext = ".go";
+}
+my $session_cookie = $ENV{AOC};
+if (!$session_cookie) {
+  say "This script needs a session cookie to continue!";
   exit -1;
 }
 say "Creating directory $dir...";
 `mkdir $dir`;
 say "Creating files...";
-`touch $dir/$dir.go $dir/mini_input $dir/input`;
-# say "Fetching input...";
-# `curl -o $dir/input https://adventofcode.com/$year/day/$date/input -H 'Cookie: ession='`
-
+`touch $dir/mini_input`;
+`cp templates/dayX$ext $dir/day$day$ext` if $ext;
+$day =~ s/0// if $day < 10;
+say "Fetching input...";
+`curl -s -H 'Cookie: session=$session_cookie' -o $dir/input https://adventofcode.com/$year/day/$day/input`
