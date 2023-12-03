@@ -4,6 +4,14 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 3
+The problems start to get tricky very earlier this year \O.O/!! Very important
+to do not overcomplicate and overthink the solution, sometimes it is way easier
+than it looks like. One general consideration, even if it seems harder while
+parsing, try to give sane direction to the coordinate axes when you store the
+2D matrix. Sometimes a different orientation while ease the reasoning! Nice
+exercise to test off-by-1 or end-of-line corner cases.
+
 # Day 2
 Parsing gymnastics. Very fun and still very easy, once you figure out how to
 organize properly the input. READ CAREFULLY THE EXAMPLE! That said, let's go
