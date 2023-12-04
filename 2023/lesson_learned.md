@@ -4,6 +4,11 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 4
+Nothing really exciting to say about today. Just acknowledging that reading
+very carefully the text of the assignment enabled me to get to a solution in a
+reasonably short time. As always some parsing-gymnastics has to be done.
+
 # Day 3
 The problems start to get tricky very earlier this year \O.O/!! Very important
 to do not overcomplicate and overthink the solution, sometimes it is way easier
