@@ -4,6 +4,16 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 5
+Not satisfied with the implementation that got me the 2nd star :( It took about
+18 minutes to run on my super-powerful machine, it is not an optimal solution I
+would say. Time to refactor and see where it goes... After reviewing my Golang
+knowledge I tried to scale horizontally using Go-routines. That lead to a
+better runtime, ~4 minutes, still not satisfying though. I am clearly missing
+the point of the problem. There should be a way to optimize the algorithm,
+either by pruning A LOT of cases to test, or by using some smart optimization
+to avoid recomputing the same values over and over.
+
 # Day 4
 Nothing really exciting to say about today. Just acknowledging that reading
 very carefully the text of the assignment enabled me to get to a solution in a
