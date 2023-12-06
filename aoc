@@ -17,7 +17,11 @@ GetOptions(
   "year=s" => \$year,
   "day=s" => \$day,
 ) or die $usage;
-$session_cookie ||= $ENV{AOC};
+open my $fh, '<', '.cookie';
+{
+  local $/;
+  $session_cookie ||= $ENV{AOC} || <$fh>;
+}
 $lang ||= 'go';
 if (!$session_cookie) {
   say "This script needs a session cookie to continue!";
