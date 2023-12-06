@@ -4,6 +4,10 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 6
+Very fun and easy challenge, with a little bit of physics involved. It has been
+a race against time, like the assigment topic :)
+
 # Day 5
 Not satisfied with the implementation that got me the 2nd star :( It took about
 18 minutes to run on my super-powerful machine, it is not an optimal solution I
