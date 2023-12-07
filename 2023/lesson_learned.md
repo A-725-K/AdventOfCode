@@ -4,6 +4,16 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 7
+This problem really required my utmost attention. After a first attempt a good
+refactoring of the code was needed. I am pretty satisfied with how I shaped the
+code eventually. Today, debugging has been more difficult than the usual since
+the main logic had to be wrapped in the "lambda" function that determined the
+sorting, and that function is called a lot of times, especially with the real
+input ($O(n * log(n))$). One last note is regarding the very special corner
+case in the second problem that got me for a moment, when all the cards in a
+round were all jokers. Fun to solve it!
+
 # Day 6
 Very fun and easy challenge, with a little bit of physics involved. It has been
 a race against time, like the assigment topic :)
