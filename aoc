@@ -21,6 +21,7 @@ open my $fh, '<', '.cookie';
 {
   local $/;
   $session_cookie ||= $ENV{AOC} || <$fh>;
+  $session_cookie =~ s#\n##sg;
 }
 $lang ||= 'go';
 if (!$session_cookie) {
@@ -68,7 +69,9 @@ if (scalar @answer == 0) {
   $day =~ s/0// if $day < 10;
   say "Sending answer for part $level: $value";
   say "Calling: https://adventofcode.com/$year/day/$day/answer";
-  chomp(my $resp = `curl -s -H 'Cookie: session=$session_cookie' -H 'Content-Type: application/x-www-form-urlencoded' -d 'level=$level&answer=$value' -X POST 'https://adventofcode.com/$year/day/$day/answer'`);
+  my $cmd = "curl -s -H 'Cookie: session=$session_cookie' -H 'Content-Type: application/x-www-form-urlencoded' -d 'level=$level&answer=$value' -X POST 'https://adventofcode.com/$year/day/$day/answer'";
+  say "Cmd: $cmd";
+  chomp(my $resp = `$cmd`);
 
   # Poor man parsing solution for HTML response containing the outcome of the
   # submission
