@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 8
+That sensation when you start to see patterns \*w*/ For the first time in this
+AoC I had a flash of inspiration! Realizing that computing the LCM instead of
+brute-forcing the solution would had led me to an optimal solution was a boost
+of morale. I am very excited to acknowledge how fast I was to solve today's
+riddle. Very nice!
+
 # Day 7
 This problem really required my utmost attention. After a first attempt a good
 refactoring of the code was needed. I am pretty satisfied with how I shaped the
