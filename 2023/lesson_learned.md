@@ -4,6 +4,12 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 9
+Very fun problem to solve, lightweighted compared to other to let people enjoy
+the weekend :) Some slow down due to the debugging of part 2, but writing down
+the computations on paper gave its results! After writing down the examples on
+the small input, I understood where I was mistaking. Cool!
+
 # Day 8
 That sensation when you start to see patterns \*w*/ For the first time in this
 AoC I had a flash of inspiration! Realizing that computing the LCM instead of
