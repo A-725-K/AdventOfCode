@@ -4,6 +4,19 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 10
+Today mark my first defeat! :( I was not able at all to figure out a solution
+for part 2 (and partly also part one). I had to peek to one of the top player
+well known from previous year, namely
+![hyper-neutrino](https://www.youtube.com/@hyper-neutrino). It is very smart
+the solution and it does not take too many lines of complicated code to present
+the correct numbers. The idea of trying to count how many pipes I needed to
+traverse, and the reasoning behind the shape of the corner pipes in contrast
+with the direction we were scanning the maze, was not something that I could
+have figure out by myself alone. Thanks once again AoC to making me learn new
+techniques to add to the arsenal! To summarize today's experience in some sort
+of coding quotes: knowledge++.
+
 # Day 9
 Very fun problem to solve, lightweighted compared to other to let people enjoy
 the weekend :) Some slow down due to the debugging of part 2, but writing down
