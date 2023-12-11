@@ -4,6 +4,19 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 11
+Very cool riddle! I was able to tackle the first part with a very bloated and
+too-long algorithm that was performing a BFS for each pair of points. Obviously
+it was taking forever also for the small input to compute the solution so, as
+soon as I read the second part of the assignment, I realized that there should
+have been a smarter and more optimal way to compute the distance between two
+galaxies (i.e. points on a 2D matrix). After googling for a bit, I got to know
+the so called "**Manhattan Distance**", and immediately some reminiscence from
+Graph Theory studied at university became vivid in my mind. The difficult bit
+of this problem, or at least the part that took me the majority of the time to
+implement it, was to scale properly the coordinates of the input. In contrast,
+the formula is VERY simple and elegant and it computes immediately. Noice!
+
 # Day 10
 Today mark my first defeat! :( I was not able at all to figure out a solution
 for part 2 (and partly also part one). I had to peek to one of the top player
