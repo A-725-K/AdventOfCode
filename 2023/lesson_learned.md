@@ -4,6 +4,27 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 12
+The level of difficulty of AoC has increased. For today's problem an optimal
+solution was necessary in order to get to the result in a time that was in
+range of a human life. For the first part I was proud of myself since I used
+some notions of *combinatorics* and a smart bit-wise algorithm to generate all
+possible permutations of two elements over a certain number of variables.
+Unfortunately, the solution I come up with was clearly not good enough to
+achieve the gold star. I tried to come up with a smarter line-solving algorithm
+that would have been applicable to the classic nonogram enigmistics game, but
+I was not able to provide a proper solution for it. I, once again, decided to
+rely on the explanation of
+![hyper-neutrino](https://www.youtube.com/@hyper-neutrino), and this would be
+the last time I will mention this AMAZING player since I have decided that after
+spending a reasonable amount of time tackling the problem without succeeding I
+will get to the solution learning from his YT tutorials. That said, when I
+peeked at his solution for the first part of the problem, which was incredibly
+smart and coincise, I was able to understand that the key for the second one was
+a long-time friend of AoC: **memoization**. It was less then trivial to apply
+a caching mechanism to the previous code, and in very short time I was able to
+get to the end of the day. Voila'!
+
 # Day 11
 Very cool riddle! I was able to tackle the first part with a very bloated and
 too-long algorithm that was performing a BFS for each pair of points. Obviously
