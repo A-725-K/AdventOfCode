@@ -75,7 +75,7 @@ if (scalar @answer == 0) {
 
   # Poor man parsing solution for HTML response containing the outcome of the
   # submission
-  my ($main_tag) = $resp =~ m#<main>(.*)</main>#s;
+  my ($main_tag) = $resp =~ m#<article>(.*)</article>#s;
   $main_tag =~ s#\n##sg;
   $main_tag =~ s#<a h.*</a>##g;
   say "$main_tag";
