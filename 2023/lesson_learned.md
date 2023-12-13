@@ -4,6 +4,16 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 13
+This day marks my biggest defeat so far. The algorithm I tried to implement is
+giving me an incorrect result on 2 test cases, therefore I was not able even to
+achieve the silver star without peeking at the real solution. This time I would
+like to blame my comprehension of English language, I am still not 100% sure I
+undestood what the real assignment was. Of course, admitting the incapacity it
+is the first step to improve, therefore I accept the fate and I look forward
+next challenges. Sad :(
+OBS: 13 is an unlucky number, I will blame the misfortune brought by it ;)
+
 # Day 12
 The level of difficulty of AoC has increased. For today's problem an optimal
 solution was necessary in order to get to the result in a time that was in
