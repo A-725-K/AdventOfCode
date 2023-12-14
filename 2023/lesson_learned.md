@@ -4,6 +4,15 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 14
+Today has been a blast! The problem was really fun to solve and finally I was
+able to put into practice some tricks learnt last year in AoC. The first part
+has been really straightforward and it was also announcing where it would have
+landed with the second one. I found it so funny that I even spent time to create
+a small animation to visualize the rolling process between every cycle. Needless
+to say I had a lot of fun today, given that I was able to figure out the
+solution all by myself. Neat!
+
 # Day 13
 This day marks my biggest defeat so far. The algorithm I tried to implement is
 giving me an incorrect result on 2 test cases, therefore I was not able even to
