@@ -4,6 +4,10 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 15
+Today's problem was both a relief and also a very fun to solve! Beside some
+indexes gymnastics no major hurdles to get to the solution. Super!
+
 # Day 14
 Today has been a blast! The problem was really fun to solve and finally I was
 able to put into practice some tricks learnt last year in AoC. The first part
