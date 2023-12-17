@@ -4,6 +4,16 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 16
+Partecipatin in AoC while you have a flight to take, it is not a good idea,
+especially if you haven't sleep enoguh (and by enough I mean "at all") :D
+That said today's problem was insanely FUN to solve! I had clear from the start
+what my algorithm should have looked like, and it has been very straightforward
+to implement it. Also it works flawlessly at the first attempt on both inputs
+for both parts, and this is something that does not happen very often, but is
+VERY rewarding. The experience I have accumulated playing AoC so far helped me
+in the thinking process, I saw some progress at least. Terrific! :)
+
 # Day 15
 Today's problem was both a relief and also a very fun to solve! Beside some
 indexes gymnastics no major hurdles to get to the solution. Super!
