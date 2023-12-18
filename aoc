@@ -67,12 +67,17 @@ if (scalar @answer == 0) {
 
   # Calling the AoC API to submit the answer
   $day =~ s/0// if $day < 10;
+  my (undef, undef, $hour) = localtime;
+  if ($hour >= 0 && $hour < 6) {
+    say "Adjusting 'day' to yesterday, night owl...";
+    $day--;
+  }
   say "Sending answer for part $level: $value";
   say "Calling: https://adventofcode.com/$year/day/$day/answer";
   my $cmd = "curl -s -H 'Cookie: session=$session_cookie' -H 'Content-Type: application/x-www-form-urlencoded' -d 'level=$level&answer=$value' -X POST 'https://adventofcode.com/$year/day/$day/answer'";
   say "Cmd: $cmd";
   chomp(my $resp = `$cmd`);
-
+  
   # Poor man parsing solution for HTML response containing the outcome of the
   # submission
   my ($main_tag) = $resp =~ m#<article>(.*)</article>#s;
