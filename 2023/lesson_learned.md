@@ -4,6 +4,24 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 17
+All this problems on a grid are testing my nerves \o.O/ They have always been my
+Achille's tendon, but this AoC I am finally improving my problem solving skills
+in this area. I spent some time trying to figure out a solution using a BFS,
+without any luck and also without really understanding why it was not entirely
+working. After a while I realized that there are few cases where this search
+will fail because of a wrong assumption regarding the tiles already visited.
+After a while, I realized that, since the assigment was to find the **minimum**
+value of a path in a *weighted* grid, the optimal and more straightforward
+solution would have been the one and only ***Djikstra***. Of course a bit of
+additional care in implementing the constraints (i.e. maximum 3 steps in a
+single direction in part 1, and at least 4 but a maximum of 10 in part 2) was
+necessary. Notice that the real difficulty in these kind of problem is debugging
+the paths that are generated, since it might be cumbersome to analyze every and
+each state pushed in the priority queue at each step, they are TOO many! Some
+smart tricks are the key to find where the code is wrong, but that comes also
+with experience. Wonderful!
+
 # Day 16
 Partecipatin in AoC while you have a flight to take, it is not a good idea,
 especially if you haven't sleep enoguh (and by enough I mean "at all") :D
