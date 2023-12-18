@@ -4,6 +4,20 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 18
+What a blast! Today I learnt A LOT of new algorithms and techniques to add to my
+toolbox! The first part has been not too hard, it has been fun to spend some
+time to get to visualize the output. For the second one instead I had to spend
+some time on Google before finding the best way to solve it. Once understood the
+formula, the algorithm has been quite straightforward to implement, the only
+hurdle has been some float/integer rounding errors. Once I sorted that out, the
+second golden star was behind the corner. Things I have learnt today:
+- *Ray casting* algorithm
+- *Shoelace* formula
+- *Pick*'s theorem
+
+Blazing!
+
 # Day 17
 All this problems on a grid are testing my nerves \o.O/ They have always been my
 Achille's tendon, but this AoC I am finally improving my problem solving skills
