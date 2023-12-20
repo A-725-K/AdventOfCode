@@ -4,6 +4,17 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 19
+Today I had a lot of fun! The problem was not incredibly difficult but few trap
+were hidden between the lines. The silver star was almost immediate, after
+figuring out how to store in proper data structures the input. For the second
+one instead I had an intuition that turned out to be the correct way to go.
+Converting the input to a *graph* has been quite simple, and the algorithm to
+travers it to compute the solution unravel itself along the way. The only issue
+that took longer time to investigate was the fact that I should have used the
+outer range when I was not applying a rule in a step. And also an off-by-one
+error when computing the possible combinationation within a range. Incredible!
+
 # Day 18
 What a blast! Today I learnt A LOT of new algorithms and techniques to add to my
 toolbox! The first part has been not too hard, it has been fun to spend some
