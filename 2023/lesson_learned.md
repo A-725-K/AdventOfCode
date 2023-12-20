@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 20
+Very cool problem! For a moment I though an eletrician would have been needed to
+solve the problem, but eventually was very fun to reason about and solve. No
+major concerns today to be honest, the only remark is to be careful to possible
+rabbit-holes that you end up in, like TRYING TO RUN THE SAME ALGORITHM OF PART 1
+TO SOLVE PART 2 ;) Shocking!
+
 # Day 19
 Today I had a lot of fun! The problem was not incredibly difficult but few trap
 were hidden between the lines. The silver star was almost immediate, after
