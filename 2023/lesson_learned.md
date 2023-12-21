@@ -4,6 +4,19 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 22
+Very intricated problem, that stretched my imagination skills. It is a lot
+harder trying to visualize data in 3D rather than in 2D. It has not been very
+easy to deal with this assignment, especially the first part where I spent most
+of the time without really being able to figure out a satisfying solution. I had
+to peak a bit from the top-notch players of this year AoC Youtube channels to
+get a reasonable explanation on how to deal with this kind of data without
+wasting all my available resources in terms of computational power. It has been
+quite smart to divide the blocks in "those which support" from "those which are
+supported by", it simplified a lot the reasoning for part 2. Eventually, I was
+able to get the golden star all by myself, after a long shower used to figure
+out the algorithm :) Solid!
+
 # Day 21
 Another defeat, but this time more lighthearted :) Part 1 has not been too hard
 to solve, but for part 2, even though I found a nice optimization of the
