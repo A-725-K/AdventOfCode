@@ -4,6 +4,22 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 21
+Another defeat, but this time more lighthearted :) Part 1 has not been too hard
+to solve, but for part 2, even though I found a nice optimization of the
+algorithm I previously used, I had to wave the white flag. My solution was
+consuming too much resources, I even wrote a function to check that the RAM of
+my poor laptop (given that is 32GB!!!) and stop if the usage was growing too
+much. Since I am coding the solutions in Golang it has been interesting to see
+how to use the *runtime* library and the power of *goroutines* to achieve so.
+When I watched few Youtube videos from another outstanding AoC player named
+![Anshuman Dash](https://www.youtube.com/@anshumandash1304), I realized that I
+would have never reached that solution. This time, I considered *hyper-neutrino*
+'s one too convoluted to try to give it a shot, even though it is incredibly
+smart and coincise. To wrap up today's experience I would like to say kudos to
+all the players able to solve the problem themselves! For me, instead, it is
+still a long way to the (metaphorical) top :) Climbing up!
+
 # Day 20
 Very cool problem! For a moment I though an eletrician would have been needed to
 solve the problem, but eventually was very fun to reason about and solve. No
