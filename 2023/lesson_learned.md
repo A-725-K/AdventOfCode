@@ -4,6 +4,27 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 24
+What an incredible problem today. I was really happy to explore some physics
+(which has always been interesting to me, but also complicated!) and to put my
+hands on some linear algebra concepts I was slowly forgetting from the time I
+studied them at university. The first half of the problem I was able to solve it
+myself using previous knowledge, but then I got lost in part 2. This year I have
+been stopped several times at this point, and since we're getting closer to the
+end it is worth spending few words on the reason. I don't want to make excuses,
+just acknowledging my limits: I have never been a competitive programmer, and
+some of these problems were too hard for me. As always I use this event to
+improve myself as a programmer, and I believe I walked few step forward this
+time! I am satisfied with all the new algorithms and techniques I have learned,
+and I hope they will come in hand one day in my everyday life and job. While I
+read few solutions adopting *Z3* solver (which is an old friend of mine...) to
+get to the second star, I decided to adopt a slightly different library which
+was unknown to me before, namely ***sympy***. I did not find anything similar in
+Golang, but some Z3 bindings, but if anyone reading this page knows anything
+like that, please let me know, I would really much appreciate it! :D That said,
+glad to have increased a bit my Python3 skills, and also the perfect moment to
+add support for this language to my ![../aoc](aoc) script.
+
 # Day 23
 Mazes onces again, the nightmare continues... BUT NOT TODAY! I achieved the
 biggest victory so far, in my opinion! :) I immediately recognized the pattern:
