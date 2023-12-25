@@ -4,6 +4,19 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 25
+Very fun problem, which I was trying to solve in the completely wrong way \0.o/
+Strong of a university course on Graph theory, I was convinced that computing
+the `betweenness` metric would have been a winning strategy. Then, I realized
+that it is a measure on vertices and not on edges :( So I needed more research,
+and eventually I understand that this riddle was nothing more (and nothing less)
+than a *minumum cut* problem. I got to know the **Stoer-Wagner** algorithm and
+it has been quite fun reimplemting it in Go (since I did not found any other
+library implementing it). Finally I can rest! It has been a long and tiring
+journey, but eventually I was able also this year to save Christmas together
+with the elves. Now I can finally enjoy my vacation time. Merry Christmas to
+everyone who lands here! Cheers!
+
 # Day 24
 What an incredible problem today. I was really happy to explore some physics
 (which has always been interesting to me, but also complicated!) and to put my
@@ -23,7 +36,7 @@ was unknown to me before, namely ***sympy***. I did not find anything similar in
 Golang, but some Z3 bindings, but if anyone reading this page knows anything
 like that, please let me know, I would really much appreciate it! :D That said,
 glad to have increased a bit my Python3 skills, and also the perfect moment to
-add support for this language to my ![../aoc](aoc) script.
+add support for this language to my ![../aoc](aoc) script. Almost!
 
 # Day 23
 Mazes onces again, the nightmare continues... BUT NOT TODAY! I achieved the
