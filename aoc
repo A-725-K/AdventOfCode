@@ -31,6 +31,7 @@ if (!$session_cookie) {
 
 # Make sure day and year are set
 my $date = `date --rfc-3339=date`;
+my $can_adjust = $year || $day;
 ($year, $day) = $date =~ m/(\d+)-\d+-(\d+)/ if !$year || !$day;
 
 # There are 2 possible situations:
@@ -47,8 +48,11 @@ if (scalar @answer == 0) {
   #      a template with the correct extension in the "templates" directory
   my $ext;
   if ($lang eq 'go') {
-    say "Using golang!";
+    say "Using Golang!";
     $ext = ".go";
+  } elsif ($lang eq 'py') {
+    say "Using Python3!";
+    $ext = ".py";
   }
 
   say "Creating directory $dir...";
@@ -68,7 +72,7 @@ if (scalar @answer == 0) {
   # Calling the AoC API to submit the answer
   $day =~ s/0// if $day < 10;
   my (undef, undef, $hour) = localtime;
-  if ($hour >= 0 && $hour < 6) {
+  if ($can_adjust && $hour >= 0 && $hour < 6) {
     say "Adjusting 'day' to yesterday, night owl...";
     $day--;
   }
