@@ -264,3 +264,22 @@ to the next!
 A bit of stretching and... let's start! AoC once again, the most wonderful time
 of the year is colored with ton of fun given by the joy of solving the riddles!
 Can't wait for tommorow :)
+
+# Results:
+|Day|Stars||Day|Stars|
+|---|---|---|---|---|
+|1|<span style="color: yellow">**</span>||14|<span style="color: yellow">**</span>|
+|2|<span style="color: yellow">**</span>||15|<span style="color: yellow">**</span>|
+|3|<span style="color: yellow">**</span>||16|<span style="color: yellow">**</span>|
+|4|<span style="color: yellow">**</span>||17|<span style="color: yellow">*</span>|
+|5|<span style="color: yellow">**</span>||18|<span style="color: yellow">**</span>|
+|6|<span style="color: yellow">**</span>||19|<span style="color: yellow">**</span>|
+|7|<span style="color: yellow">**</span>||20|<span style="color: yellow">**</span>|
+|8|<span style="color: yellow">**</span>||21|<span style="color: yellow">**</span>|
+|9|<span style="color: yellow">**</span>||22|<span style="color: #d3d3d3">*</span>|
+|10|<span style="color: yellow">**</span>||23|<span style="color: yellow">**</span>|
+|11|<span style="color: yellow">**</span>||24|<span style="color: #d3d3d3">*</span>|
+|12|<span style="color: yellow">**</span>||25|<span></span>|
+|13|<span style="color: yellow">**</span>|
+
+Eventually solved also 22 and 24 part 2, and 25, after the competition ended.
