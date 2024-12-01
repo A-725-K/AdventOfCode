@@ -268,19 +268,19 @@ in the same line that were not independent.
 # Results:
 |Day|Stars||Day|Stars|
 |---|---|---|---|---|
-|1|<span style="color: yellow">**</span>||14|<span style="color: yellow">**</span>|
-|2|<span style="color: yellow">**</span>||15|<span style="color: yellow">**</span>|
-|3|<span style="color: yellow">**</span>||16|<span style="color: yellow">**</span>|
-|4|<span style="color: yellow">**</span>||17|<span style="color: #d3d3d3">*</span>|
-|5|<span style="color: yellow">**</span>||18|<span style="color: yellow">**</span>|
-|6|<span style="color: yellow">**</span>||19|<span style="color: #d3d3d3">*</span>|
-|7|<span style="color: yellow">**</span>||20|<span style="color: yellow">**</span>|
-|8|<span style="color: yellow">**</span>||21|<span style="color: yellow">**</span>|
-|9|<span style="color: yellow">**</span>||22|<span style="color: yellow">**</span>|
-|10|<span style="color: yellow">**</span>||23|<span style="color: yellow">**</span>|
-|11|<span style="color: yellow">**</span>||24|<span style="color: yellow">**</span>|
-|12|<span style="color: yellow">**</span>||25|<span style="color: #d3d3d3">*</span>|
-|13|<span style="color: yellow">**</span>|
+|1|$\textcolor{gold}{\textsf{**}}$||14|$\textcolor{gold}{\textsf{**}}$|
+|2|$\textcolor{gold}{\textsf{**}}$||15|$\textcolor{gold}{\textsf{**}}$|
+|3|$\textcolor{gold}{\textsf{**}}$||16|$\textcolor{gold}{\textsf{**}}$|
+|4|$\textcolor{gold}{\textsf{**}}$||17|$\textcolor{silver}{\textsf{*}}$|
+|5|$\textcolor{gold}{\textsf{**}}$||18|$\textcolor{gold}{\textsf{**}}$|
+|6|$\textcolor{gold}{\textsf{**}}$||19|$\textcolor{silver}{\textsf{*}}$|
+|7|$\textcolor{gold}{\textsf{**}}$||20|$\textcolor{gold}{\textsf{**}}$|
+|8|$\textcolor{gold}{\textsf{**}}$||21|$\textcolor{gold}{\textsf{**}}$|
+|9|$\textcolor{gold}{\textsf{**}}$||22|$\textcolor{gold}{\textsf{**}}$|
+|10|$\textcolor{gold}{\textsf{**}}$||23|$\textcolor{gold}{\textsf{**}}$|
+|11|$\textcolor{gold}{\textsf{**}}$||24|$\textcolor{gold}{\textsf{**}}$|
+|12|$\textcolor{gold}{\textsf{**}}$||25|$\textcolor{gold}{\textsf{*}}$|
+|13|$\textcolor{gold}{\textsf{**}}$|
 
 Eventually solved also 17 and 19 part 2, after the competition ended.
 
