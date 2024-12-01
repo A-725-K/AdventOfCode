@@ -39,27 +39,41 @@ my $can_adjust = $year || $day;
 #   - len(answer) > 0: trying to submit a solution
 if (scalar @answer == 0) {
   my $dir = "$year/day$day";
-  if (-e "$dir") {
+  if (-d "$dir") {
     say "Cannot create today's directory ($dir): already created...";
     exit -1;
+  }
+  if (! -d "$year/") {
+    say "Welcome to AoC $year!";
+    mkdir $year, 0755;
   }
 
   # XXX: when adding here support for additional languages, create also a
   #      a template with the correct extension in the "templates" directory
-  my $ext;
+  my ($ext, $skip_dir, $dest);
   if ($lang eq 'go') {
     say "Using Golang!";
     $ext = ".go";
   } elsif ($lang eq 'py') {
     say "Using Python3!";
     $ext = ".py";
+  } elsif ($lang eq 'rust') {
+    say "Using Rust!";
+    $ext = ".rs";
+    `cargo init $year/day$day`;
+    $dest = "$dir/src/main.rs";
+    $skip_dir = 1;
   }
 
-  say "Creating directory $dir...";
-  mkdir $dir, 0755;
+  if (!$skip_dir) {
+    say "Creating directory $dir...";
+    mkdir $dir, 0755;
+  }
+
   say "Creating files...";
   `touch $dir/mini_input`;
-  copy("templates/dayX$ext", "$dir/day$day$ext") if $ext;
+  $dest //= "$dir/day$day$ext";
+  copy("templates/dayX$ext", $dest) if $dest;
 
   # Calling the AoC API to fetch the input
   $day =~ s/0// if $day < 10;
