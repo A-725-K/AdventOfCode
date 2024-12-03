@@ -4,6 +4,10 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 3
+Very easy and fun problem to solve! Rust FTW once again, even though the fact
+that regex are not part of the core language was a little weird :) Let's go!
+
 # Day 2
 First star easy-peasy... and then the challenge hit me! It took way longer than
 expected to figure out the second one. Trying to remove each and every item it
@@ -22,7 +26,7 @@ far I can get with this. Let's see!
 |---|---|---|---|---|
 |1|$\textcolor{gold}{\textsf{**}}$||14||
 |2|$\textcolor{gold}{\textsf{**}}$||15||
-|3|||16||
+|3|$\textcolor{gold}{\textsf{**}}$||16||
 |4|||17||
 |5|||18||
 |6|||19||
