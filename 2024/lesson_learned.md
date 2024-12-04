@@ -4,6 +4,15 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 4
+Today I propose a nice and clean solution! I was a little bit worried in the
+beginning because I know Rust is known to complicate iterating on a string
+due to its extensive UTF-8 support, but eventually turned out to be not too
+difficult to manipulate a `Vec<Vec<char>>`. I enjoyed refining my solution and
+exploring some Rust features (e.g. `std::slice::Iter` crate) to make it nicer!
+Moreover, crosswords are one of my favorites hobby, so today I also appreciated
+the lore :) Git-push!
+
 # Day 3
 Very easy and fun problem to solve! Rust FTW once again, even though the fact
 that regex are not part of the core language was a little weird :) Let's go!
@@ -27,7 +36,7 @@ far I can get with this. Let's see!
 |1|$\textcolor{gold}{\textsf{**}}$||14||
 |2|$\textcolor{gold}{\textsf{**}}$||15||
 |3|$\textcolor{gold}{\textsf{**}}$||16||
-|4|||17||
+|4|$\textcolor{gold}{\textsf{**}}$||17||
 |5|||18||
 |6|||19||
 |7|||20||
