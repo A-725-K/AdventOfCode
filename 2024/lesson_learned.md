@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 5
+I am starting to enjoy Rust even if sometimes I still fight with its compiler :)
+It has a quite extensive standard library with lots of basic operations. I liked
+the fact it has a `.contains()` method on `Vec` type, it simplified my life.
+With a bit of struggle and mental gymnastic to figure out the first part, the
+second one was surprisingly smooth. Let's go!
+
 # Day 4
 Today I propose a nice and clean solution! I was a little bit worried in the
 beginning because I know Rust is known to complicate iterating on a string
@@ -37,7 +44,7 @@ far I can get with this. Let's see!
 |2|$\textcolor{gold}{\textsf{**}}$||15||
 |3|$\textcolor{gold}{\textsf{**}}$||16||
 |4|$\textcolor{gold}{\textsf{**}}$||17||
-|5|||18||
+|5|$\textcolor{gold}{\textsf{**}}$||18||
 |6|||19||
 |7|||20||
 |8|||21||
