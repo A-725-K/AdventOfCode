@@ -4,6 +4,15 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 6
+Today I put into practice something I learned on day 2. Start with the dirty
+solution and then refine your way up! I got the second star in \~1 minute, my
+script was quite slow even though I was very much convinced of my solution.
+I also learned that the Rust compiler makes quite a lot of difference when
+running in the `--release` mode. From 30+ seconds it got to \~16. After reviewing
+other solutions, I also found a nice optimization that saved a lot of time, and
+eventually I managed to run my code in \~3sec. Satisfied!
+
 # Day 5
 I am starting to enjoy Rust even if sometimes I still fight with its compiler :)
 It has a quite extensive standard library with lots of basic operations. I liked
@@ -45,7 +54,7 @@ far I can get with this. Let's see!
 |3|$\textcolor{gold}{\textsf{**}}$||16||
 |4|$\textcolor{gold}{\textsf{**}}$||17||
 |5|$\textcolor{gold}{\textsf{**}}$||18||
-|6|||19||
+|6|$\textcolor{gold}{\textsf{**}}$||19||
 |7|||20||
 |8|||21||
 |9|||22||
