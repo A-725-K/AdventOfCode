@@ -4,6 +4,25 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 7
+I feel it! The problem are becoming more complex. Today struggle, on the other
+hand, it is not about the algorithm. It is about me being stupid using wrong
+data structure to store the input. I spent an excessive amount of time trying to
+understand why my solution was working on the test input and miserably failing
+by a small amount on the real one. Turned out I had duplicates in my input, and
+using HashMaps in this case was not the smartest choices since some values were
+overridden. After understanding this bit, the solution has been pretty
+straightforward. In the beginning I copied-and-pasted some code from
+[Rosetta repository](https://rosettacode.org/wiki/Permutations_with_repetitions#Rust)
+to generate all possible combinations of N elements in K slots with repetitions.
+For the first time in my life I made use of some probability theory I learned
+at university :) I was quite happy even though it is probably (pun intended) not
+the fastest solution. Anyway it has been very easy to adapt the first solution
+to part 2. Today I also had my first argument with Rust, it did not helped me
+in writing what I actually had in mind. I also struggled a bit with the
+`itertools` package to find a better implementation for the Rosetta part.
+Semi-happy!
+
 # Day 6
 Today I put into practice something I learned on day 2. Start with the dirty
 solution and then refine your way up! I got the second star in \~1 minute, my
@@ -55,7 +74,7 @@ far I can get with this. Let's see!
 |4|$\textcolor{gold}{\textsf{**}}$||17||
 |5|$\textcolor{gold}{\textsf{**}}$||18||
 |6|$\textcolor{gold}{\textsf{**}}$||19||
-|7|||20||
+|7|$\textcolor{gold}{\textsf{**}}$||20||
 |8|||21||
 |9|||22||
 |10|||23||
