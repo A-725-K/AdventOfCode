@@ -4,6 +4,11 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 8
+The author of AoC wanted to be merciful on the first weekend of the competition,
+therefore a nice and easy challenge kept us busing this Sunday. Some basic math
+from high school was enough to solve today's puzzle. Thank you!
+
 # Day 7
 I feel it! The problem are becoming more complex. Today struggle, on the other
 hand, it is not about the algorithm. It is about me being stupid using wrong
@@ -75,7 +80,7 @@ far I can get with this. Let's see!
 |5|$\textcolor{gold}{\textsf{**}}$||18||
 |6|$\textcolor{gold}{\textsf{**}}$||19||
 |7|$\textcolor{gold}{\textsf{**}}$||20||
-|8|||21||
+|8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|||22||
 |10|||23||
 |11|||24||
