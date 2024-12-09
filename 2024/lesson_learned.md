@@ -4,6 +4,22 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 9
+The first terrible defeat, as expected :( It was all going too well, until today.
+The problem was fun, and in this moment in my life I feel really anxious for a
+number of things. This doesn't want to be an excuse, but just underline how I
+was not in the right mindset to face this challenge. First of all, I didn't
+understand properly part 1. I just misread the instructions and developed an
+overcomplex algorithm that did not even solved the problem. After quite a lot
+of struggling and juggling with edge cases, eventually, I managed to get to the
+point. For part 2 I had a lot of ideas, but had hard time implementing them
+because of the aforementioned mood. Thanks to one of the best AoC players and
+YouTubers, I managed to understand where I was failing. Due to time constraints
+I had not enough time to develop a solution of my own, so I ended up almost
+copying it. Today, also Rust came in the way few times. I understand now the
+power of this language and its compiler. It really prevents you from writing bad
+code, but not always is easy to deal with it. Sad!
+
 # Day 8
 The author of AoC wanted to be merciful on the first weekend of the competition,
 therefore a nice and easy challenge kept us busing this Sunday. Some basic math
@@ -81,7 +97,7 @@ far I can get with this. Let's see!
 |6|$\textcolor{gold}{\textsf{**}}$||19||
 |7|$\textcolor{gold}{\textsf{**}}$||20||
 |8|$\textcolor{gold}{\textsf{**}}$||21||
-|9|||22||
+|9|$\textcolor{gold}{\textsf{**}}$||22||
 |10|||23||
 |11|||24||
 |12|||25||
