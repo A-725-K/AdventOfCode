@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 10
+After yesterday debacle my morale was very low. Today has been a breath of fresh
+air! I revamped my maze-walking skills from previous AoC, and I managed to
+complete both parts pretty quickly. Fun fact: at some point I got to the solution
+of part 2 before solving part 1 :) Switching between the 2 has been quite smooth.
+Glad!
+
 # Day 9
 The first terrible defeat, as expected :( It was all going too well, until today.
 The problem was fun, and in this moment in my life I feel really anxious for a
@@ -98,7 +105,7 @@ far I can get with this. Let's see!
 |7|$\textcolor{gold}{\textsf{**}}$||20||
 |8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|$\textcolor{gold}{\textsf{**}}$||22||
-|10|||23||
+|10|$\textcolor{gold}{\textsf{**}}$||23||
 |11|||24||
 |12|||25||
 |13||
