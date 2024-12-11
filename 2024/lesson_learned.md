@@ -4,6 +4,18 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 11
+Very interesting riddle! It was one of these days that while reading part one,
+you might already guess what part two will be asking you. After solving quickly
+the first half of the day, I figured out that the only way to tackle the next one
+would have been caching some data. I only had too little time to spend to figure
+out on my own how. Unfortunately today is one of those days. I had to look up
+how to implement correctly the memoization and only then I understood that I
+could have written it myself. Only the divide-et-impera approach didn't occur to
+me. On the other hand I now know a new Rust crate, namely `cached`, that can be
+used almost in the same way as `@cache` and `@lru_cache` decorators in Python,
+which I was already familiar with. Ok!
+
 # Day 10
 After yesterday debacle my morale was very low. Today has been a breath of fresh
 air! I revamped my maze-walking skills from previous AoC, and I managed to
@@ -106,6 +118,6 @@ far I can get with this. Let's see!
 |8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|$\textcolor{gold}{\textsf{**}}$||22||
 |10|$\textcolor{gold}{\textsf{**}}$||23||
-|11|||24||
+|11|$\textcolor{gold}{\textsf{**}}$||24||
 |12|||25||
 |13||
