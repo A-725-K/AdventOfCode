@@ -4,6 +4,17 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 12
+The game starts to become complicated as expected. I was surprised to figure out
+at least the first part in a very short time. I also had a hunch about the
+second one, and I was already using the half-coordinates thanks to some memories
+from past years and to a lucky Google search. Unfortunately my algorithm
+was not able to solve the corner case presented in one of the examples where
+2 regions were touching an angle but were not part of the same segment. But it
+has been fun to spend the day on AoC after a rough couple of weeks, so I am not
+disappointed after all! I am starting to appreciate Rust and I will try to stick
+to it for the rest of the competition. Cool!
+
 # Day 11
 Very interesting riddle! It was one of these days that while reading part one,
 you might already guess what part two will be asking you. After solving quickly
@@ -119,5 +130,5 @@ far I can get with this. Let's see!
 |9|$\textcolor{gold}{\textsf{**}}$||22||
 |10|$\textcolor{gold}{\textsf{**}}$||23||
 |11|$\textcolor{gold}{\textsf{**}}$||24||
-|12|||25||
+|12|$\textcolor{gold}{\textsf{**}}$||25||
 |13||
