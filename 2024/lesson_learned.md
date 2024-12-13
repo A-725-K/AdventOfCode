@@ -4,6 +4,17 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 13
+It is always fun to deal with math problems. It has also been fun to solve it
+together with a loved one. The first part has been really straightforward, and
+it took me really short time to get the star. When I started the second half, I
+spent too much time trying to find a Rust library to solve linear algebra systems
+without any luck. Turned out it was not really needed, just a piece of paper and
+some scribbling was the perfect recipe to find the solution. I spent too much
+time debugging some stupid errors due to operand orders, missing factors, and
+variable poorly named but eventually I was able to reach also the second star.
+Careful!
+
 # Day 12
 The game starts to become complicated as expected. I was surprised to figure out
 at least the first part in a very short time. I also had a hunch about the
@@ -131,4 +142,4 @@ far I can get with this. Let's see!
 |10|$\textcolor{gold}{\textsf{**}}$||23||
 |11|$\textcolor{gold}{\textsf{**}}$||24||
 |12|$\textcolor{gold}{\textsf{**}}$||25||
-|13||
+|13|$\textcolor{gold}{\textsf{**}}$|
