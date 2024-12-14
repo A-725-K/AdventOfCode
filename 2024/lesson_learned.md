@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 14
+What a day! I love these kind of puzzles where the output is also visual :)
+Luckily for me, today has been quite easy to get both stars, and I couldn't have
+asked for a better day for a simple challenge. It has been a very long day for
+personal reasons, but eventually I managed to play for some time and I am very
+delighted and pleased with the outcome. Grateful!
+
 # Day 13
 It is always fun to deal with math problems. It has also been fun to solve it
 together with a loved one. The first part has been really straightforward, and
@@ -130,7 +137,7 @@ far I can get with this. Let's see!
 # Results:
 |Day|Stars||Day|Stars|
 |---|---|---|---|---|
-|1|$\textcolor{gold}{\textsf{**}}$||14||
+|1|$\textcolor{gold}{\textsf{**}}$||14|$\textcolor{gold}{\textsf{**}}$|
 |2|$\textcolor{gold}{\textsf{**}}$||15||
 |3|$\textcolor{gold}{\textsf{**}}$||16||
 |4|$\textcolor{gold}{\textsf{**}}$||17||
