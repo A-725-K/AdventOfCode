@@ -4,6 +4,15 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 15
+I am pretty amazed by how today I managed to solve both parts. For the first one
+I had no problem at all, the algorithm I imagined worked perfectly once I managed
+to write it down as intended. For the second it took me a while to understand
+why my idea didn't work, but I have been enlightened somehow and realized that 
+`backtrack` technique was the way to proceed. Probably not the most efficient
+solution, but it served the purpose. Bonus points, both solutions are recursive!
+Incredible!
+
 # Day 14
 What a day! I love these kind of puzzles where the output is also visual :)
 Luckily for me, today has been quite easy to get both stars, and I couldn't have
@@ -138,7 +147,7 @@ far I can get with this. Let's see!
 |Day|Stars||Day|Stars|
 |---|---|---|---|---|
 |1|$\textcolor{gold}{\textsf{**}}$||14|$\textcolor{gold}{\textsf{**}}$|
-|2|$\textcolor{gold}{\textsf{**}}$||15||
+|2|$\textcolor{gold}{\textsf{**}}$||15|$\textcolor{gold}{\textsf{**}}$|
 |3|$\textcolor{gold}{\textsf{**}}$||16||
 |4|$\textcolor{gold}{\textsf{**}}$||17||
 |5|$\textcolor{gold}{\textsf{**}}$||18||
