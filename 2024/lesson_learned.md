@@ -4,6 +4,38 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 16
+Not every day is bright and shining... Today I have been not able to figure out
+the solution by myself. Or actually I found an algorithm that solved the two
+small inputs in few seconds that was a BFS visit with a sparkle of backtracking.
+Unfortunately it miserably failed on the real input. After several hours of
+runtime it was not finished yet. It is probably correct, but it would take
+forever to get an answer, and then it is when I realized my solution was not the
+intended one. After reading a bit on the internet I understood that today's
+problem required `Dijkstra's` algorithm to win the stars. I also learned a new
+interesting way to express the direction while walking a maze as a pair of values
+among -1|0|1. Here is how:
+ - (1,  0): move to the right (_East_)
+ - (-1, 0): move to the left (_West_)
+ - (0,  1): move down (_South_)
+ - (0, -1): move up (_North_)
+where the positive values is toward the positive direction in a Cartesian plane
+oriented like this:
+-|--------> X
+ |
+ |
+ V
+ Y
+
+Then after looking up a proper solution I managed to overcome the first part of
+the problem. When I read the second half, I literally gave up. I knew it had to
+do with storing the full path somehow while walking through the maze, but how to
+save only the best one that lead to a minimum score was completely out of my
+ability. I am happy I learned something new today, even if I did not managed to
+solve anything. I wish I could do better with these kind of problems. I also
+learned some new tricks with Rust, therefore the day has not been entirely
+wasted. But hey, life happens. Positive!
+
 # Day 15
 I am pretty amazed by how today I managed to solve both parts. For the first one
 I had no problem at all, the algorithm I imagined worked perfectly once I managed
@@ -148,7 +180,7 @@ far I can get with this. Let's see!
 |---|---|---|---|---|
 |1|$\textcolor{gold}{\textsf{**}}$||14|$\textcolor{gold}{\textsf{**}}$|
 |2|$\textcolor{gold}{\textsf{**}}$||15|$\textcolor{gold}{\textsf{**}}$|
-|3|$\textcolor{gold}{\textsf{**}}$||16||
+|3|$\textcolor{gold}{\textsf{**}}$||16|$\textcolor{gold}{\textsf{**}}$|
 |4|$\textcolor{gold}{\textsf{**}}$||17||
 |5|$\textcolor{gold}{\textsf{**}}$||18||
 |6|$\textcolor{gold}{\textsf{**}}$||19||
