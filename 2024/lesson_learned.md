@@ -4,6 +4,21 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 17
+Cpus has always been my favorite kind of problem to implement for AoC. The first
+star has been very fun to reach. Unfortunately, I had no idea how to approach
+the second part whatsoever. After few attempts, and inspecting (or more like
+dissecting with a careful reverse engineering approach) the input I got, I found
+some bits of information but that were not enough to make me think of a solution.
+Thanks to a top-player mindset reveal I eventually understood what was the way
+to go, but, hey, I would have never-ever-ever get to that by myself. Here's a
+[link](https://www.youtube.com/watch?v=OjFGKL54yJQ) that inspired my solution
+after hearing and understanding the reasoning. It has been overall very fun, but
+too difficult for my current possibilities. The idea behind this puzzle is
+incredibly smart, and there could be a general solution if and only if all the
+players' inputs share a common pattern (which I believe they do). Kudos to the
+people who thought of it, they have my complete admiration! Surprised!
+
 # Day 16
 Not every day is bright and shining... Today I have been not able to figure out
 the solution by myself. Or actually I found an algorithm that solved the two
@@ -181,7 +196,7 @@ far I can get with this. Let's see!
 |1|$\textcolor{gold}{\textsf{**}}$||14|$\textcolor{gold}{\textsf{**}}$|
 |2|$\textcolor{gold}{\textsf{**}}$||15|$\textcolor{gold}{\textsf{**}}$|
 |3|$\textcolor{gold}{\textsf{**}}$||16|$\textcolor{gold}{\textsf{**}}$|
-|4|$\textcolor{gold}{\textsf{**}}$||17||
+|4|$\textcolor{gold}{\textsf{**}}$||17|$\textcolor{gold}{\textsf{**}}$|
 |5|$\textcolor{gold}{\textsf{**}}$||18||
 |6|$\textcolor{gold}{\textsf{**}}$||19||
 |7|$\textcolor{gold}{\textsf{**}}$||20||
