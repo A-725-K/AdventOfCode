@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 18
+After a hectic couple of days here some more easy-going puzzle :) After realizing
+that `memoization` was the best today's best friend, I had no issue in figuring
+out all by myself! It has been relieving after giving up for at least 2 days.
+It also took very short time to adapt the solution to part 1 for getting the
+second star, and the code is clean too. Relaxing!
+
 # Day 17
 Cpus has always been my favorite kind of problem to implement for AoC. The first
 star has been very fun to reach. Unfortunately, I had no idea how to approach
@@ -197,7 +204,7 @@ far I can get with this. Let's see!
 |2|$\textcolor{gold}{\textsf{**}}$||15|$\textcolor{gold}{\textsf{**}}$|
 |3|$\textcolor{gold}{\textsf{**}}$||16|$\textcolor{gold}{\textsf{**}}$|
 |4|$\textcolor{gold}{\textsf{**}}$||17|$\textcolor{gold}{\textsf{**}}$|
-|5|$\textcolor{gold}{\textsf{**}}$||18||
+|5|$\textcolor{gold}{\textsf{**}}$||18|$\textcolor{gold}{\textsf{**}}$|
 |6|$\textcolor{gold}{\textsf{**}}$||19||
 |7|$\textcolor{gold}{\textsf{**}}$||20||
 |8|$\textcolor{gold}{\textsf{**}}$||21||
