@@ -4,6 +4,19 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 19
+Today has been a bit of up and down. To be fair I hadn't got much time to spend
+on AoC as much as I wanted :( Life is happening really fast, and it's hard to
+reserve time for everything. But mumbling aside, I was quite happy to figure out
+the first part on my own. I managed to find an optimal algorithm to compute the
+solution. Unfortunately, when it came the second part, the code I produced was
+not simple enough to refactor to count also the number of possible solutions.
+I need to improve in these kind of problem, it is a bit sad that I am not able
+to reason on the algorithm I just wrote to adapt it in such a way. On the other
+hand, it is always super-interesting to see how top-notch players can so easily
+find their way. I have still lots to learn and so little time to do it :(
+So and so!
+
 # Day 18
 After a hectic couple of days here some more easy-going puzzle :) After realizing
 that `memoization` was the best today's best friend, I had no issue in figuring
@@ -205,7 +218,7 @@ far I can get with this. Let's see!
 |3|$\textcolor{gold}{\textsf{**}}$||16|$\textcolor{gold}{\textsf{**}}$|
 |4|$\textcolor{gold}{\textsf{**}}$||17|$\textcolor{gold}{\textsf{**}}$|
 |5|$\textcolor{gold}{\textsf{**}}$||18|$\textcolor{gold}{\textsf{**}}$|
-|6|$\textcolor{gold}{\textsf{**}}$||19||
+|6|$\textcolor{gold}{\textsf{**}}$||19|$\textcolor{gold}{\textsf{**}}$|
 |7|$\textcolor{gold}{\textsf{**}}$||20||
 |8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|$\textcolor{gold}{\textsf{**}}$||22||
