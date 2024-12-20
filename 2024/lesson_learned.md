@@ -4,6 +4,15 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 20
+When you think you are comfortable solving maze problems the reality arrives and
+hits you very hard! Again, today is one of these days where I don't have enough
+time to spend on AoC, so I had to look up a solution and once again learn from
+better players. I had no idea how to approach the problem, and the attempt I
+drafted was not even close to the real solution. Interesting the "diamond"
+approach to get to the second star, now I know how to explore at a certain
+distance an area on a grid. Come on!
+
 # Day 19
 Today has been a bit of up and down. To be fair I hadn't got much time to spend
 on AoC as much as I wanted :( Life is happening really fast, and it's hard to
@@ -219,7 +228,7 @@ far I can get with this. Let's see!
 |4|$\textcolor{gold}{\textsf{**}}$||17|$\textcolor{gold}{\textsf{**}}$|
 |5|$\textcolor{gold}{\textsf{**}}$||18|$\textcolor{gold}{\textsf{**}}$|
 |6|$\textcolor{gold}{\textsf{**}}$||19|$\textcolor{gold}{\textsf{**}}$|
-|7|$\textcolor{gold}{\textsf{**}}$||20||
+|7|$\textcolor{gold}{\textsf{**}}$||20|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|$\textcolor{gold}{\textsf{**}}$||22||
 |10|$\textcolor{gold}{\textsf{**}}$||23||
