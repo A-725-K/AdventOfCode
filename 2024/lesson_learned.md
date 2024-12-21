@@ -4,6 +4,46 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 23
+Another graph problem! I am not too good in working with graphs, and that has
+been clearly highlighted by the solution I came up with for part 1. I also
+found a way to generalize to solve part 2 but it would have taken another 4.5
+billions of years to compute the solution :( I had to look up how to optimize
+the algorithm to find the `connected component` faster. In today's problem Rust
+has not been really helpful since to implement simple operations required more
+lines than expected, and of course that is also due to the fact that I am no
+expert in such language. At least I learned something new, and that's the whole
+purpose of playing AoC. So I am overall satisfied :) Not bad!
+
+# Day 22
+This solution is not really satisfactory, but at least got me the second star :)
+```bash
+Best seq: [(0, 0), (2, 2), (2, 0), (2, 0)]
+The most bananas I can get is ***
+
+real	3m55.868s
+user	3m55.548s
+sys	0m0.034
+```
+It has been quite fun to solve today's problem! I would like to spend some more
+time to figure out a better and faster algorithm to get to the solution, mine
+seems to be an order of magnitude slower than needed. Unfortunately time is
+running out, and it is every day harder to find few hours to spare for AoC,
+again life is happening in the background! I also have to solve day 21, which I
+haven't tackled yet. Anyway I am pretty happy with how it went! Great!
+
+# Day 21
+What a problem! This day has been extremely challenging and rewarding at the
+same time. Even though I couldn't figure out a proper solution I enjoyed trying.
+I spent quite some time before understanding that the Cartesian product was the
+operation I was looking for. Moreover, I managed to visualize the difference
+between DFS and BFS and how they solve different kind of problems sometimes. For
+part 2 I resorted once again to one of the top-player Youtube videos to get some
+insights. Turned out this time I needed more than just a peek, but it has been
+very worth it. The monster has been overcome also for this year. Eventually,
+the first part computes in ~30s while the second only takes milliseconds, and it
+is quite amazing to see the difference. Late!
+
 # Day 20
 When you think you are comfortable solving maze problems the reality arrives and
 hits you very hard! Again, today is one of these days where I don't have enough
