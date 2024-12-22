@@ -4,6 +4,26 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 22
+This solution is not really satisfactory, but at least got me the second star :)
+```bash
+Best seq: [(0, 0), (2, 2), (2, 0), (2, 0)]
+The most bananas I can get is ***
+
+real	3m55.868s
+user	3m55.548s
+sys	0m0.034
+```
+It has been quite fun to solve today's problem! I would like to spend some more
+time to figure out a better and faster algorithm to get to the solution, mine
+seems to be an order of magnitude slower than needed. Unfortunately time is
+running out, and it is every day harder to find few hours to spare for AoC,
+again life is happening in the background! I also have to solve day 21, which I
+haven't tackled yet. Anyway I am pretty happy with how it went! Great!
+
+# Day 21
+TODO...
+
 # Day 20
 When you think you are comfortable solving maze problems the reality arrives and
 hits you very hard! Again, today is one of these days where I don't have enough
@@ -230,7 +250,7 @@ far I can get with this. Let's see!
 |6|$\textcolor{gold}{\textsf{**}}$||19|$\textcolor{gold}{\textsf{**}}$|
 |7|$\textcolor{gold}{\textsf{**}}$||20|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$||21||
-|9|$\textcolor{gold}{\textsf{**}}$||22||
+|9|$\textcolor{gold}{\textsf{**}}$||22|$\textcolor{gold}{\textsf{**}}$|
 |10|$\textcolor{gold}{\textsf{**}}$||23||
 |11|$\textcolor{gold}{\textsf{**}}$||24||
 |12|$\textcolor{gold}{\textsf{**}}$||25||
