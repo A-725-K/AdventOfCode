@@ -270,7 +270,7 @@ far I can get with this. Let's see!
 |6|$\textcolor{gold}{\textsf{**}}$||19|$\textcolor{gold}{\textsf{**}}$|
 |7|$\textcolor{gold}{\textsf{**}}$||20|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$||21||
-|9|$\textcolor{gold}{\textsf{**}}$||22||
+|9|$\textcolor{gold}{\textsf{**}}$||22|$\textcolor{gold}{\textsf{**}}$|
 |10|$\textcolor{gold}{\textsf{**}}$||23||
 |11|$\textcolor{gold}{\textsf{**}}$||24||
 |12|$\textcolor{gold}{\textsf{**}}$||25||
