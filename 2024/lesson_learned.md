@@ -4,6 +4,17 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 23
+Another graph problem! I am not too good in working with graphs, and that has
+been clearly highlighted by the solution I came up with for part 1. I also
+found a way to generalize to solve part 2 but it would have taken another 4.5
+billions of years to compute the solution :( I had to look up how to optimize
+the algorithm to find the `connected component` faster. In today's problem Rust
+has not been really helpful since to implement simple operations required more
+lines than expected, and of course that is also due to the fact that I am no
+expert in such language. At least I learned something new, and that's the whole
+purpose of playing AoC. So I am overall satisfied :) Not bad!
+
 # Day 22
 This solution is not really satisfactory, but at least got me the second star :)
 ```bash
@@ -251,7 +262,7 @@ far I can get with this. Let's see!
 |7|$\textcolor{gold}{\textsf{**}}$||20|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|$\textcolor{gold}{\textsf{**}}$||22|$\textcolor{gold}{\textsf{**}}$|
-|10|$\textcolor{gold}{\textsf{**}}$||23||
+|10|$\textcolor{gold}{\textsf{**}}$||23|$\textcolor{gold}{\textsf{**}}$|
 |11|$\textcolor{gold}{\textsf{**}}$||24||
 |12|$\textcolor{gold}{\textsf{**}}$||25||
 |13|$\textcolor{gold}{\textsf{**}}$|
