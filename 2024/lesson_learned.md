@@ -4,6 +4,30 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 25
+Super simple problem, just to let all the players enjoy the Christmas day with
+their loved ones. Once again has been very fun to get to the end! I will reserve
+some time as soon as I can to complete all the remaining problems early next
+year. A good resolution for 2025 would be to improve a bit in competitive
+programming, and try to be a better player next year. Until then, merry Christmas
+to all the players! The end!
+
+# Day 24
+Quite a weird one! The first part has been extremely easy, like too much easy.
+It took me probably less than 5 minutes to code the solution, but oh boy, part
+two has been a nightmare! I couldn't even imagine an algorithm to approach the
+problem, let alone solve it. I also got quite scared after noticing the length
+of video of the solution proposed by one of the best player of AoC on YouTube
+(i.e. [hyperneutrino](https://www.youtube.com/watch?v=SU6lp6wyd3I)). Don't want
+to make excuses, of course I am not a great player, but I did not have enough
+time this year to spend trying to visualize and scribble something reasonable...
+I had to resort to the walkthrough once again. The idea of reverse-engineering
+the binary addition is very brilliant! Also the only idea I had was to try every
+possible 4-way-combinations of wires swap to try to get a solution, but this
+would have took way too long to compute the solution. Eventually there's at least
+some brute-force but for every pair, after a failure is found. Way smarter then
+what I thought. Almost!
+
 # Day 23
 Another graph problem! I am not too good in working with graphs, and that has
 been clearly highlighted by the solution I came up with for part 1. I also
@@ -38,7 +62,7 @@ same time. Even though I couldn't figure out a proper solution I enjoyed trying.
 I spent quite some time before understanding that the Cartesian product was the
 operation I was looking for. Moreover, I managed to visualize the difference
 between DFS and BFS and how they solve different kind of problems sometimes. For
-part 2 I resorted once again to one of the top-player Youtube videos to get some
+part 2 I resorted once again to one of the top-player YouTube videos to get some
 insights. Turned out this time I needed more than just a peek, but it has been
 very worth it. The monster has been overcome also for this year. Eventually,
 the first part computes in ~30s while the second only takes milliseconds, and it
