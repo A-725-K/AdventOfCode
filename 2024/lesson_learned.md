@@ -296,6 +296,8 @@ far I can get with this. Let's see!
 |8|$\textcolor{gold}{\textsf{**}}$||21||
 |9|$\textcolor{gold}{\textsf{**}}$||22|$\textcolor{gold}{\textsf{**}}$|
 |10|$\textcolor{gold}{\textsf{**}}$||23|$\textcolor{gold}{\textsf{**}}$|
-|11|$\textcolor{gold}{\textsf{**}}$||24||
-|12|$\textcolor{gold}{\textsf{**}}$||25||
+|11|$\textcolor{gold}{\textsf{**}}$||24|$\textcolor{silver}{\textsf{**}}$|
+|12|$\textcolor{gold}{\textsf{**}}$||25|$\textcolor{silver}{\textsf{**}}$|
 |13|$\textcolor{gold}{\textsf{**}}$|
+
+Eventually solved also 21 and 24 part 2 after the competition ended.
