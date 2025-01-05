@@ -254,7 +254,7 @@ difficult algorithm that checked how many intervals were not
 overlapping at all in the list, instead of simply looking for those
 in the same line that were not independent.
 
-# How to improve
+## How to improve
 - READ CAREFULLY THE DESCRIPTION OF THE CHALLENGE!!!
 - Test always the code with the small input and save it!
 - Think about possible optimizations when the input grows: sometimes also
@@ -265,7 +265,7 @@ in the same line that were not independent.
   code. On the other hand languages like `Python` allow a quick prototype
   that can be refined later on.
 
-# Results:
+## Results:
 |Day|Stars||Day|Stars|
 |---|---|---|---|---|
 |1|$\textcolor{gold}{\textsf{**}}$||14|$\textcolor{gold}{\textsf{**}}$|
@@ -284,6 +284,6 @@ in the same line that were not independent.
 
 Eventually solved also 17 and 19 part 2, after the competition ended.
 
-# TODO(s):
+### TODO(s):
 - create script to grab input
 - use a command line argument to run either small or big input

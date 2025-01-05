@@ -4,7 +4,7 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
-# Day 25
+## Day 25
 Very fun problem, which I was trying to solve in the completely wrong way \0.o/
 Strong of a university course on Graph theory, I was convinced that computing
 the `betweenness` metric would have been a winning strategy. Then, I realized
@@ -17,7 +17,7 @@ journey, but eventually I was able also this year to save Christmas together
 with the elves. Now I can finally enjoy my vacation time. Merry Christmas to
 everyone who lands here! Cheers!
 
-# Day 24
+## Day 24
 What an incredible problem today. I was really happy to explore some physics
 (which has always been interesting to me, but also complicated!) and to put my
 hands on some linear algebra concepts I was slowly forgetting from the time I
@@ -38,7 +38,7 @@ like that, please let me know, I would really much appreciate it! :D That said,
 glad to have increased a bit my Python3 skills, and also the perfect moment to
 add support for this language to my ![../aoc](aoc) script. Almost!
 
-# Day 23
+## Day 23
 Mazes onces again, the nightmare continues... BUT NOT TODAY! I achieved the
 biggest victory so far, in my opinion! :) I immediately recognized the pattern:
 *backtracking* FTW! After finding online a simple example of this technique, I
@@ -46,7 +46,7 @@ was able to adapt to my needs and craft a nice algorithm to solve both parts of
 today's problem. I was surprised and delighted at the same time, eventually all
 the stuff that I've learned came in hand. Super-cool!
 
-# Day 22
+## Day 22
 Very intricated problem, that stretched my imagination skills. It is a lot
 harder trying to visualize data in 3D rather than in 2D. It has not been very
 easy to deal with this assignment, especially the first part where I spent most
@@ -59,7 +59,7 @@ supported by", it simplified a lot the reasoning for part 2. Eventually, I was
 able to get the golden star all by myself, after a long shower used to figure
 out the algorithm :) Solid!
 
-# Day 21
+## Day 21
 Another defeat, but this time more lighthearted :) Part 1 has not been too hard
 to solve, but for part 2, even though I found a nice optimization of the
 algorithm I previously used, I had to wave the white flag. My solution was
@@ -75,14 +75,14 @@ smart and coincise. To wrap up today's experience I would like to say kudos to
 all the players able to solve the problem themselves! For me, instead, it is
 still a long way to the (metaphorical) top :) Climbing up!
 
-# Day 20
+## Day 20
 Very cool problem! For a moment I though an eletrician would have been needed to
 solve the problem, but eventually was very fun to reason about and solve. No
 major concerns today to be honest, the only remark is to be careful to possible
 rabbit-holes that you end up in, like TRYING TO RUN THE SAME ALGORITHM OF PART 1
 TO SOLVE PART 2 ;) Shocking!
 
-# Day 19
+## Day 19
 Today I had a lot of fun! The problem was not incredibly difficult but few trap
 were hidden between the lines. The silver star was almost immediate, after
 figuring out how to store in proper data structures the input. For the second
@@ -93,7 +93,7 @@ that took longer time to investigate was the fact that I should have used the
 outer range when I was not applying a rule in a step. And also an off-by-one
 error when computing the possible combinationation within a range. Incredible!
 
-# Day 18
+## Day 18
 What a blast! Today I learnt A LOT of new algorithms and techniques to add to my
 toolbox! The first part has been not too hard, it has been fun to spend some
 time to get to visualize the output. For the second one instead I had to spend
@@ -107,7 +107,7 @@ second golden star was behind the corner. Things I have learnt today:
 
 Blazing!
 
-# Day 17
+## Day 17
 All this problems on a grid are testing my nerves \o.O/ They have always been my
 Achille's tendon, but this AoC I am finally improving my problem solving skills
 in this area. I spent some time trying to figure out a solution using a BFS,
@@ -125,7 +125,7 @@ each state pushed in the priority queue at each step, they are TOO many! Some
 smart tricks are the key to find where the code is wrong, but that comes also
 with experience. Wonderful!
 
-# Day 16
+## Day 16
 Partecipatin in AoC while you have a flight to take, it is not a good idea,
 especially if you haven't sleep enoguh (and by enough I mean "at all") :D
 That said today's problem was insanely FUN to solve! I had clear from the start
@@ -135,11 +135,11 @@ for both parts, and this is something that does not happen very often, but is
 VERY rewarding. The experience I have accumulated playing AoC so far helped me
 in the thinking process, I saw some progress at least. Terrific! :)
 
-# Day 15
+## Day 15
 Today's problem was both a relief and also a very fun to solve! Beside some
 indexes gymnastics no major hurdles to get to the solution. Super!
 
-# Day 14
+## Day 14
 Today has been a blast! The problem was really fun to solve and finally I was
 able to put into practice some tricks learnt last year in AoC. The first part
 has been really straightforward and it was also announcing where it would have
@@ -148,7 +148,7 @@ a small animation to visualize the rolling process between every cycle. Needless
 to say I had a lot of fun today, given that I was able to figure out the
 solution all by myself. Neat!
 
-# Day 13
+## Day 13
 This day marks my biggest defeat so far. The algorithm I tried to implement is
 giving me an incorrect result on 2 test cases, therefore I was not able even to
 achieve the silver star without peeking at the real solution. This time I would
@@ -158,7 +158,7 @@ is the first step to improve, therefore I accept the fate and I look forward
 next challenges. Sad :(
 OBS: 13 is an unlucky number, I will blame the misfortune brought by it ;)
 
-# Day 12
+## Day 12
 The level of difficulty of AoC has increased. For today's problem an optimal
 solution was necessary in order to get to the result in a time that was in
 range of a human life. For the first part I was proud of myself since I used
@@ -179,7 +179,7 @@ a long-time friend of AoC: **memoization**. It was less then trivial to apply
 a caching mechanism to the previous code, and in very short time I was able to
 get to the end of the day. Voila'!
 
-# Day 11
+## Day 11
 Very cool riddle! I was able to tackle the first part with a very bloated and
 too-long algorithm that was performing a BFS for each pair of points. Obviously
 it was taking forever also for the small input to compute the solution so, as
@@ -192,7 +192,7 @@ of this problem, or at least the part that took me the majority of the time to
 implement it, was to scale properly the coordinates of the input. In contrast,
 the formula is VERY simple and elegant and it computes immediately. Noice!
 
-# Day 10
+## Day 10
 Today mark my first defeat! :( I was not able at all to figure out a solution
 for part 2 (and partly also part one). I had to peek to one of the top player
 well known from previous year, namely
@@ -205,20 +205,20 @@ have figure out by myself alone. Thanks once again AoC to making me learn new
 techniques to add to the arsenal! To summarize today's experience in some sort
 of coding quotes: knowledge++.
 
-# Day 9
+## Day 9
 Very fun problem to solve, lightweighted compared to other to let people enjoy
 the weekend :) Some slow down due to the debugging of part 2, but writing down
 the computations on paper gave its results! After writing down the examples on
 the small input, I understood where I was mistaking. Cool!
 
-# Day 8
+## Day 8
 That sensation when you start to see patterns \*w*/ For the first time in this
 AoC I had a flash of inspiration! Realizing that computing the LCM instead of
 brute-forcing the solution would had led me to an optimal solution was a boost
 of morale. I am very excited to acknowledge how fast I was to solve today's
 riddle. Very nice!
 
-# Day 7
+## Day 7
 This problem really required my utmost attention. After a first attempt a good
 refactoring of the code was needed. I am pretty satisfied with how I shaped the
 code eventually. Today, debugging has been more difficult than the usual since
@@ -228,11 +228,11 @@ input ($O(n * log(n))$). One last note is regarding the very special corner
 case in the second problem that got me for a moment, when all the cards in a
 round were all jokers. Fun to solve it!
 
-# Day 6
+## Day 6
 Very fun and easy challenge, with a little bit of physics involved. It has been
 a race against time, like the assigment topic :)
 
-# Day 5
+## Day 5
 Not satisfied with the implementation that got me the 2nd star :( It took about
 18 minutes to run on my super-powerful machine, it is not an optimal solution I
 would say. Time to refactor and see where it goes... After reviewing my Golang
@@ -242,12 +242,12 @@ the point of the problem. There should be a way to optimize the algorithm,
 either by pruning A LOT of cases to test, or by using some smart optimization
 to avoid recomputing the same values over and over.
 
-# Day 4
+## Day 4
 Nothing really exciting to say about today. Just acknowledging that reading
 very carefully the text of the assignment enabled me to get to a solution in a
 reasonably short time. As always some parsing-gymnastics has to be done.
 
-# Day 3
+## Day 3
 The problems start to get tricky very earlier this year \O.O/!! Very important
 to do not overcomplicate and overthink the solution, sometimes it is way easier
 than it looks like. One general consideration, even if it seems harder while
@@ -255,12 +255,12 @@ parsing, try to give sane direction to the coordinate axes when you store the
 2D matrix. Sometimes a different orientation while ease the reasoning! Nice
 exercise to test off-by-1 or end-of-line corner cases.
 
-# Day 2
+## Day 2
 Parsing gymnastics. Very fun and still very easy, once you figure out how to
 organize properly the input. READ CAREFULLY THE EXAMPLE! That said, let's go
 to the next!
 
-# Day 1
+## Day 1
 A bit of stretching and... let's start! AoC once again, the most wonderful time
 of the year is colored with ton of fun given by the joy of solving the riddles!
 Can't wait for tommorow :)

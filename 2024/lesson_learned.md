@@ -4,7 +4,7 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
-# Day 25
+## Day 25
 Super simple problem, just to let all the players enjoy the Christmas day with
 their loved ones. Once again has been very fun to get to the end! I will reserve
 some time as soon as I can to complete all the remaining problems early next
@@ -12,7 +12,7 @@ year. A good resolution for 2025 would be to improve a bit in competitive
 programming, and try to be a better player next year. Until then, merry Christmas
 to all the players! The end!
 
-# Day 24
+## Day 24
 Quite a weird one! The first part has been extremely easy, like too much easy.
 It took me probably less than 5 minutes to code the solution, but oh boy, part
 two has been a nightmare! I couldn't even imagine an algorithm to approach the
@@ -28,7 +28,7 @@ would have took way too long to compute the solution. Eventually there's at leas
 some brute-force but for every pair, after a failure is found. Way smarter then
 what I thought. Almost!
 
-# Day 23
+## Day 23
 Another graph problem! I am not too good in working with graphs, and that has
 been clearly highlighted by the solution I came up with for part 1. I also
 found a way to generalize to solve part 2 but it would have taken another 4.5
@@ -39,7 +39,7 @@ lines than expected, and of course that is also due to the fact that I am no
 expert in such language. At least I learned something new, and that's the whole
 purpose of playing AoC. So I am overall satisfied :) Not bad!
 
-# Day 22
+## Day 22
 This solution is not really satisfactory, but at least got me the second star :)
 ```bash
 Best seq: [(0, 0), (2, 2), (2, 0), (2, 0)]
@@ -56,7 +56,7 @@ running out, and it is every day harder to find few hours to spare for AoC,
 again life is happening in the background! I also have to solve day 21, which I
 haven't tackled yet. Anyway I am pretty happy with how it went! Great!
 
-# Day 21
+## Day 21
 What a problem! This day has been extremely challenging and rewarding at the
 same time. Even though I couldn't figure out a proper solution I enjoyed trying.
 I spent quite some time before understanding that the Cartesian product was the
@@ -68,7 +68,7 @@ very worth it. The monster has been overcome also for this year. Eventually,
 the first part computes in ~30s while the second only takes milliseconds, and it
 is quite amazing to see the difference. Late!
 
-# Day 20
+## Day 20
 When you think you are comfortable solving maze problems the reality arrives and
 hits you very hard! Again, today is one of these days where I don't have enough
 time to spend on AoC, so I had to look up a solution and once again learn from
@@ -77,7 +77,7 @@ drafted was not even close to the real solution. Interesting the "diamond"
 approach to get to the second star, now I know how to explore at a certain
 distance an area on a grid. Come on!
 
-# Day 19
+## Day 19
 Today has been a bit of up and down. To be fair I hadn't got much time to spend
 on AoC as much as I wanted :( Life is happening really fast, and it's hard to
 reserve time for everything. But mumbling aside, I was quite happy to figure out
@@ -90,14 +90,14 @@ hand, it is always super-interesting to see how top-notch players can so easily
 find their way. I have still lots to learn and so little time to do it :(
 So and so!
 
-# Day 18
+## Day 18
 After a hectic couple of days here some more easy-going puzzle :) After realizing
 that `memoization` was the best today's best friend, I had no issue in figuring
 out all by myself! It has been relieving after giving up for at least 2 days.
 It also took very short time to adapt the solution to part 1 for getting the
 second star, and the code is clean too. Relaxing!
 
-# Day 17
+## Day 17
 Cpus has always been my favorite kind of problem to implement for AoC. The first
 star has been very fun to reach. Unfortunately, I had no idea how to approach
 the second part whatsoever. After few attempts, and inspecting (or more like
@@ -112,7 +112,7 @@ incredibly smart, and there could be a general solution if and only if all the
 players' inputs share a common pattern (which I believe they do). Kudos to the
 people who thought of it, they have my complete admiration! Surprised!
 
-# Day 16
+## Day 16
 Not every day is bright and shining... Today I have been not able to figure out
 the solution by myself. Or actually I found an algorithm that solved the two
 small inputs in few seconds that was a BFS visit with a sparkle of backtracking.
@@ -144,7 +144,7 @@ solve anything. I wish I could do better with these kind of problems. I also
 learned some new tricks with Rust, therefore the day has not been entirely
 wasted. But hey, life happens. Positive!
 
-# Day 15
+## Day 15
 I am pretty amazed by how today I managed to solve both parts. For the first one
 I had no problem at all, the algorithm I imagined worked perfectly once I managed
 to write it down as intended. For the second it took me a while to understand
@@ -153,14 +153,14 @@ why my idea didn't work, but I have been enlightened somehow and realized that
 solution, but it served the purpose. Bonus points, both solutions are recursive!
 Incredible!
 
-# Day 14
+## Day 14
 What a day! I love these kind of puzzles where the output is also visual :)
 Luckily for me, today has been quite easy to get both stars, and I couldn't have
 asked for a better day for a simple challenge. It has been a very long day for
 personal reasons, but eventually I managed to play for some time and I am very
 delighted and pleased with the outcome. Grateful!
 
-# Day 13
+## Day 13
 It is always fun to deal with math problems. It has also been fun to solve it
 together with a loved one. The first part has been really straightforward, and
 it took me really short time to get the star. When I started the second half, I
@@ -171,7 +171,7 @@ time debugging some stupid errors due to operand orders, missing factors, and
 variable poorly named but eventually I was able to reach also the second star.
 Careful!
 
-# Day 12
+## Day 12
 The game starts to become complicated as expected. I was surprised to figure out
 at least the first part in a very short time. I also had a hunch about the
 second one, and I was already using the half-coordinates thanks to some memories
@@ -182,7 +182,7 @@ has been fun to spend the day on AoC after a rough couple of weeks, so I am not
 disappointed after all! I am starting to appreciate Rust and I will try to stick
 to it for the rest of the competition. Cool!
 
-# Day 11
+## Day 11
 Very interesting riddle! It was one of these days that while reading part one,
 you might already guess what part two will be asking you. After solving quickly
 the first half of the day, I figured out that the only way to tackle the next one
@@ -194,14 +194,14 @@ me. On the other hand I now know a new Rust crate, namely `cached`, that can be
 used almost in the same way as `@cache` and `@lru_cache` decorators in Python,
 which I was already familiar with. Ok!
 
-# Day 10
+## Day 10
 After yesterday debacle my morale was very low. Today has been a breath of fresh
 air! I revamped my maze-walking skills from previous AoC, and I managed to
 complete both parts pretty quickly. Fun fact: at some point I got to the solution
 of part 2 before solving part 1 :) Switching between the 2 has been quite smooth.
 Glad!
 
-# Day 9
+## Day 9
 The first terrible defeat, as expected :( It was all going too well, until today.
 The problem was fun, and in this moment in my life I feel really anxious for a
 number of things. This doesn't want to be an excuse, but just underline how I
@@ -217,12 +217,12 @@ copying it. Today, also Rust came in the way few times. I understand now the
 power of this language and its compiler. It really prevents you from writing bad
 code, but not always is easy to deal with it. Sad!
 
-# Day 8
+## Day 8
 The author of AoC wanted to be merciful on the first weekend of the competition,
 therefore a nice and easy challenge kept us busing this Sunday. Some basic math
 from high school was enough to solve today's puzzle. Thank you!
 
-# Day 7
+## Day 7
 I feel it! The problem are becoming more complex. Today struggle, on the other
 hand, it is not about the algorithm. It is about me being stupid using wrong
 data structure to store the input. I spent an excessive amount of time trying to
@@ -241,7 +241,7 @@ in writing what I actually had in mind. I also struggled a bit with the
 `itertools` package to find a better implementation for the Rosetta part.
 Semi-happy!
 
-# Day 6
+## Day 6
 Today I put into practice something I learned on day 2. Start with the dirty
 solution and then refine your way up! I got the second star in \~1 minute, my
 script was quite slow even though I was very much convinced of my solution.
@@ -250,14 +250,14 @@ running in the `--release` mode. From 30+ seconds it got to \~16. After reviewin
 other solutions, I also found a nice optimization that saved a lot of time, and
 eventually I managed to run my code in \~3sec. Satisfied!
 
-# Day 5
+## Day 5
 I am starting to enjoy Rust even if sometimes I still fight with its compiler :)
 It has a quite extensive standard library with lots of basic operations. I liked
 the fact it has a `.contains()` method on `Vec` type, it simplified my life.
 With a bit of struggle and mental gymnastic to figure out the first part, the
 second one was surprisingly smooth. Let's go!
 
-# Day 4
+## Day 4
 Today I propose a nice and clean solution! I was a little bit worried in the
 beginning because I know Rust is known to complicate iterating on a string
 due to its extensive UTF-8 support, but eventually turned out to be not too
@@ -266,18 +266,18 @@ exploring some Rust features (e.g. `std::slice::Iter` crate) to make it nicer!
 Moreover, crosswords are one of my favorites hobby, so today I also appreciated
 the lore :) Git-push!
 
-# Day 3
+## Day 3
 Very easy and fun problem to solve! Rust FTW once again, even though the fact
 that regex are not part of the core language was a little weird :) Let's go!
 
-# Day 2
+## Day 2
 First star easy-peasy... and then the challenge hit me! It took way longer than
 expected to figure out the second one. Trying to remove each and every item it
 looked like a not-so-smart move, but turned out to be an accepted solution. I
 am not sure at this point if there's a better way to achieve the result, but at
 least I got my second gold star! Bonus: I still managed to use Rust :) Go on!
 
-# Day 1
+## Day 1
 Here we go again! This year will be different for me. A lot in my real life is
 happening, and I hope I will find the time to participate at least a bit in AoC.
 One thing I would like to try is Rust language even though I am not sure how
