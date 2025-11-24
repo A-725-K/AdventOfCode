@@ -9,7 +9,7 @@ use Getopt::Long qw(GetOptions);
 my $usage = "Usage: $0 [--day DD] [--year YYYY] --cookie <SESSION_COOKIE> --start [lang] | --submit 1|2 <ANS>";
 
 # Handle program arguments
-my ($lang, $session_cookie, @answer, $year, $day);
+my ($lang, $session_cookie, $year, $day, @answer);
 GetOptions(
   "start:s" => \$lang,
   "cookie=s" => \$session_cookie,
@@ -17,6 +17,7 @@ GetOptions(
   "year=s" => \$year,
   "day=s" => \$day,
 ) or die $usage;
+# Read cookie from file
 open my $fh, '<', '.cookie';
 {
   local $/;
@@ -50,7 +51,7 @@ if (scalar @answer == 0) {
 
   # XXX: when adding here support for additional languages, create also a
   #      a template with the correct extension in the "templates" directory
-  my ($ext, $skip_dir, $dest);
+  my ($ext, $skip_dir, $dest, $input_dir);
   if ($lang eq 'go') {
     say "Using Golang!";
     $ext = ".go";
@@ -60,10 +61,17 @@ if (scalar @answer == 0) {
   } elsif ($lang eq 'rust') {
     say "Using Rust!";
     $ext = ".rs";
-    `cargo init $year/day$day`;
-    $dest = "$dir/src/main.rs";
+    $dest = "$year/src/aoc/day$day.rs";
     $skip_dir = 1;
+    $input_dir = "$year/src/inputs/day$day/";
+
+    open my $f, '>>', "${year}/src/aoc.rs" or die "Cannot open file: $!";
+    print $f "pub mod day${day};\n";
+    close $f;
+    `sed -i '9s/^/\\tmethods.insert(${day}, vec![aoc::day${day}::part1, aoc::day${day}::part2]);\\n/' ${year}/src/main.rs`;
+    mkdir $input_dir, 0755;
   }
+  $input_dir //= $dir;
 
   if (!$skip_dir) {
     say "Creating directory $dir...";
@@ -71,14 +79,14 @@ if (scalar @answer == 0) {
   }
 
   say "Creating files...";
-  `touch $dir/mini_input`;
+  `touch $input_dir/mini_input`;
   $dest //= "$dir/day$day$ext";
   copy("templates/dayX$ext", $dest) if $dest;
 
   # Calling the AoC API to fetch the input
   $day =~ s/0// if $day < 10;
   say "Fetching input...";
-  `curl -s -H 'Cookie: session=$session_cookie' -o $dir/input https://adventofcode.com/$year/day/$day/input`
+  `curl -s -H 'Cookie: session=$session_cookie' -o $input_dir/input https://adventofcode.com/$year/day/$day/input`
 } else {
   my ($level, $value) = @answer;
   die $usage if $level < 1 || $level > 2;
@@ -95,7 +103,7 @@ if (scalar @answer == 0) {
   my $cmd = "curl -s -H 'Cookie: session=$session_cookie' -H 'Content-Type: application/x-www-form-urlencoded' -d 'level=$level&answer=$value' -X POST 'https://adventofcode.com/$year/day/$day/answer'";
   say "Cmd: $cmd";
   chomp(my $resp = `$cmd`);
-  
+
   # Poor man parsing solution for HTML response containing the outcome of the
   # submission
   my ($main_tag) = $resp =~ m#<article>(.*)</article>#s;
