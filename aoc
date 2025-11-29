@@ -68,7 +68,7 @@ if (scalar @answer == 0) {
     open my $f, '>>', "${year}/src/aoc.rs" or die "Cannot open file: $!";
     print $f "pub mod day${day};\n";
     close $f;
-    `sed -i '9s/^/\\tmethods.insert(${day}, vec![aoc::day${day}::part1, aoc::day${day}::part2]);\\n/' ${year}/src/main.rs`;
+    `sed -i '10s/^/    methods.insert(${day}, vec![aoc::day${day}::part1, aoc::day${day}::part2]);\\n/' ${year}/src/main.rs`;
     mkdir $input_dir, 0755;
   }
   $input_dir //= $dir;
