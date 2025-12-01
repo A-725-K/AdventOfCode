@@ -7,6 +7,7 @@ mod aoc;
 type MethodList = HashMap<usize, Vec<fn(&Vec<String>, usize)>>;
 
 fn add_methods(methods: &mut MethodList) {
+    methods.insert(01, vec![aoc::day01::part1, aoc::day01::part2]);
 }
 
 fn parse_input(filename: &str) -> Vec<String> {
