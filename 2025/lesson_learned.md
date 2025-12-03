@@ -4,6 +4,13 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 3
+After 4 years of AoC I start to see some fruits of my work :) The first problem
+has been fairly trivial for me. For the second part, instead I was surprised how
+fast I could come up with an optimal solution. I tried to implement 3 different
+strategies, but the first 2 were not correct. Nonetheless, they helped me to
+understand what I was doing wrong. All in all was a successful day. Enjoyable!
+
 # Day 2
 Given the limited amount of days, this year the difficulty slope will be steep.
 While the first part was quite straightforward, adapting the algorithm for the
@@ -29,13 +36,13 @@ Let's begin!
 |---|---|
 |1|$\textcolor{gold}{\textsf{**}}$|
 |2|$\textcolor{gold}{\textsf{**}}$|
-|3|
-|4|
-|5|
-|6|
-|7|
-|8|
-|9|
-|10|
-|11|
-|12|
+|3|$\textcolor{gold}{\textsf{**}}$|
+|4||
+|5||
+|6||
+|7||
+|8||
+|9||
+|10||
+|11||
+|12||
