@@ -4,6 +4,10 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 4
+Today was a relaxing problem. Simple matrix structure and easy requirements, the
+easiest so far for me. Not much to add. Happy :)
+
 # Day 3
 After 4 years of AoC I start to see some fruits of my work :) The first problem
 has been fairly trivial for me. For the second part, instead I was surprised how
@@ -37,7 +41,7 @@ Let's begin!
 |1|$\textcolor{gold}{\textsf{**}}$|
 |2|$\textcolor{gold}{\textsf{**}}$|
 |3|$\textcolor{gold}{\textsf{**}}$|
-|4||
+|4|$\textcolor{gold}{\textsf{**}}$|
 |5||
 |6||
 |7||
