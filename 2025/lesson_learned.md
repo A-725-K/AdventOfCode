@@ -4,6 +4,12 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 5
+Also today's problem was a walk in the park. It was clear from the beginning that
+there would have been some range-merging algorithm involved, but for the first
+part I decided to go with the simplest and inefficient solution that took ~1ms
+to run anyway. Nothing compared to day 9 of 2024 :) Simple!
+
 # Day 4
 Today was a relaxing problem. Simple matrix structure and easy requirements, the
 easiest so far for me. Not much to add. Happy :)
@@ -42,7 +48,7 @@ Let's begin!
 |2|$\textcolor{gold}{\textsf{**}}$|
 |3|$\textcolor{gold}{\textsf{**}}$|
 |4|$\textcolor{gold}{\textsf{**}}$|
-|5||
+|5|$\textcolor{gold}{\textsf{**}}$|
 |6||
 |7||
 |8||
