@@ -4,6 +4,15 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 6
+Very fun challenge! It's a bit sad to see that we are already halfway through this
+year, time is flying too fast! Anyway, a bit of parsing gymnastics was all that was
+needed to solve today's riddle. I was a bit surprised when after solving the
+second part for the small input, my code panicked on the real one, but then I have
+learned that the `char::to_digit()` function in Rust returns an `i32` and not a
+`usize`. Fixing the cast, seamlessly led me to the correct result since the
+algorithm was sound. Super!
+
 # Day 5
 Also today's problem was a walk in the park. It was clear from the beginning that
 there would have been some range-merging algorithm involved, but for the first
@@ -49,7 +58,7 @@ Let's begin!
 |3|$\textcolor{gold}{\textsf{**}}$|
 |4|$\textcolor{gold}{\textsf{**}}$|
 |5|$\textcolor{gold}{\textsf{**}}$|
-|6||
+|6|$\textcolor{gold}{\textsf{**}}$|
 |7||
 |8||
 |9||
