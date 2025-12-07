@@ -4,6 +4,19 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 7
+Today marked my first defeat :( The first part has been fairly easy to solve, and I
+manage to come up with a sort of iterative algorithm that worked (and graphically
+showed the result, too). Second part was easy to solve on the small input with a
+*backtracking* algorithm, but when it get to the real input it failed miserably. Fun
+fact: today I was at a Christmas party at some friends, and I decided to let run the
+solution until I was back home... well, after ~11h the program was still running, while
+no solution in sight. After poking a bit at the sub-reddit, I've finally found what I
+was not understanding. I've completely missed 2 aspects: caching and simplicity of the
+algorithm design. Turned out I could've crafted a very trivial solution in ~10 lines, but
+I had to change completely the way I was thinking. It is also something I should've learned
+from past Advents of Code, but still it got me. It happens!
+
 # Day 6
 Very fun challenge! It's a bit sad to see that we are already halfway through this
 year, time is flying too fast! Anyway, a bit of parsing gymnastics was all that was
@@ -59,7 +72,7 @@ Let's begin!
 |4|$\textcolor{gold}{\textsf{**}}$|
 |5|$\textcolor{gold}{\textsf{**}}$|
 |6|$\textcolor{gold}{\textsf{**}}$|
-|7||
+|7|$\textcolor{gold}{\textsf{**}}$|
 |8||
 |9||
 |10||
