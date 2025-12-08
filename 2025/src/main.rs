@@ -7,6 +7,7 @@ mod aoc;
 type MethodList = HashMap<usize, Vec<fn(&Vec<String>, usize)>>;
 
 fn add_methods(methods: &mut MethodList) {
+    methods.insert(08, vec![aoc::day08::part1, aoc::day08::part2]);
     methods.insert(07, vec![aoc::day07::part1, aoc::day07::part2]);
     methods.insert(06, vec![aoc::day06::part1, aoc::day06::part2]);
     methods.insert(05, vec![aoc::day05::part1, aoc::day05::part2]);
