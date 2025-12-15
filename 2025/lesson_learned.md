@@ -4,6 +4,22 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 10
+Incredible problem! I could not believe I had been able to solve the first part of today's
+riddle all by myself :D This denoted a slight improvement in my problem solving ability :)
+I was under the shower preparing for work when I had the enlightment that those operations
+could've been represented with a XOR, and the sets treated as integer numbers. As soon as I
+got in front of the keyboard the solution was very clear to me and it took no time to
+implement it! Talking about the second part instead is completely different... I was not
+understanding how to tackle the request, so I peeked at AoC sub-reddit. There I got the
+intuition for using linear algebra. When it comes to that subject, the only person I can
+think for help is my wife! I wouldn't had been able to solve it if it weren't for her <3
+She helped me writing down on paper how the system should've looked like, and then it was
+pretty straightforward to code in Z3. I used the Python3 bindings to get to the solution,
+but I would like to find some time to try to, at least, use the Rust ones... Will see if I
+ever find the time to do that! In any case, one of if not my favorite challenge of this year's
+AoC. Amazing!
+
 # Day 9
 What a day! I reached the first star basically immediately, and then a big wall was presented
 in front of me. Boy, that was hard! I have tried (and you can see by the amount of commented
@@ -107,6 +123,6 @@ Let's begin!
 |7|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$|
 |9|$\textcolor{silver}{\textsf{*}}$|
-|10||
+|10|$\textcolor{gold}{\textsf{**}}$|
 |11||
 |12||
