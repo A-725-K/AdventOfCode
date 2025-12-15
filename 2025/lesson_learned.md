@@ -4,6 +4,18 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 12
+Today the author was very indulgent! Reading the challenge I got extremely scared and it was
+pretty clear that it was a NP-Hard problem. I started to read online about possible solutions
+and it seems that there is still research going around this topic, so how can I possibly even
+get a shot at it? In a desperate tentative I just counted if the blocks were not exceeding
+the total area of the region under test, and turned out that this simple check was sufficient
+for getting the second-last star /(0.0)\ Hard problem + easy input ~> easy problem :)
+I was surprised to find online then solution were people were actually able to write an actual
+algorithm to solve it, and plot it even! And just like that another year passed by, it was as
+always very fun to play and loosing some hour of sleep to devote to this amazing event! Can't
+wait to play next year already! Merry X-Mas! :D
+
 # Day 11
 After 2 very though days, something more manageable. I was quite fast to get to the first
 star, and then I slowed down a bit to get to the second. First I've tried a naive search
@@ -141,4 +153,4 @@ Let's begin!
 |9|$\textcolor{silver}{\textsf{*}}$|
 |10|$\textcolor{gold}{\textsf{**}}$|
 |11|$\textcolor{gold}{\textsf{**}}$|
-|12||
+|12|$\textcolor{silver}{\textsf{*}}$|
