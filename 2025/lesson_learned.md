@@ -4,6 +4,16 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 8
+After a defeat, this was absolutely needed! It was a boost for my journey. I was able to
+identify the correct algorithm, and also implement it in a reasonable time (for my standards,
+of course). *Union-find*s are not the most common data structures used in everyday's job.
+Luckily there were stuck in the back of my head. First I've tried a connected-component
+approach, but the limits were clear after examining the output even on the samll input.
+Good that existed an already available implementation in a Rust crate called `union_find`,
+that simplified the solution. The code was also very elegant. I have also learned that `f64`
+data type in Rust is not totally ordered since it can hold the value NaN. Astonishing!
+
 # Day 7
 Today marked my first defeat :( The first part has been fairly easy to solve, and I
 manage to come up with a sort of iterative algorithm that worked (and graphically
@@ -73,7 +83,7 @@ Let's begin!
 |5|$\textcolor{gold}{\textsf{**}}$|
 |6|$\textcolor{gold}{\textsf{**}}$|
 |7|$\textcolor{gold}{\textsf{**}}$|
-|8||
+|8|$\textcolor{gold}{\textsf{**}}$|
 |9||
 |10||
 |11||

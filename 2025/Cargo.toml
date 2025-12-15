@@ -5,3 +5,4 @@ edition = "2024"
 
 [dependencies]
 cached = "0.56.0"
+union-find = "0.4.3"
