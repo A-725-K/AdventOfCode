@@ -4,6 +4,28 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 9
+What a day! I reached the first star basically immediately, and then a big wall was presented
+in front of me. Boy, that was hard! I have tried (and you can see by the amount of commented
+code I will commit anyway...) few different approaches, mostly based on `ray-casting`
+algorithm, but none of them where enabling me to reach an answer in a limited amount of time.
+The input space grew enormously, such that an exhaustive search wouldn't led me anywhere. I
+had to resort to some walkthrough this time, and I realized I couldn't resolved it with my
+current knowledge. I got to know 2-3 very interesting algorithm (one of which I already
+explored at some point a couple of years ago, in AoC):
+- **coordinate compression**: a very interesting approach to reduce of some magnitude the size
+                  of the input space. By saving the deltas between two Xs or Ys
+                  the number of coordinates to consider is much lower
+- **flood-fill**: the idea to find a set of points that fall inside a perimeter is to start
+                  a flood from the outside and see when they reach a perimeter, and then
+                  exclude them.
+- **prefix sum**: an efficient algorithm to get the sum of some values within a range, here
+                  in its 2D version, where you keep a matrix of pre-compuited values instead
+                  of a single list.
+The mix of these 3 algorithms lead to the solution in a very short time. A bit hard to imagine
+and visualize, but printing out intermediate results helped quite a lot in understanding the
+whole process. Interesting!
+
 # Day 8
 After a defeat, this was absolutely needed! It was a boost for my journey. I was able to
 identify the correct algorithm, and also implement it in a reasonable time (for my standards,
@@ -84,7 +106,7 @@ Let's begin!
 |6|$\textcolor{gold}{\textsf{**}}$|
 |7|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$|
-|9||
+|9|$\textcolor{silver}{\textsf{*}}$|
 |10||
 |11||
 |12||
