@@ -4,6 +4,9 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 9
+WIP...
+
 # Day 8
 After a defeat, this was absolutely needed! It was a boost for my journey. I was able to
 identify the correct algorithm, and also implement it in a reasonable time (for my standards,
@@ -84,7 +87,7 @@ Let's begin!
 |6|$\textcolor{gold}{\textsf{**}}$|
 |7|$\textcolor{gold}{\textsf{**}}$|
 |8|$\textcolor{gold}{\textsf{**}}$|
-|9||
+|9|$\textcolor{silver}{\textsf{*}}$|
 |10||
 |11||
 |12||
