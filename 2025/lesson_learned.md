@@ -4,6 +4,22 @@ when solving the AoC challenges, and how can I improve myself next
 time I will face a similar problem. As well as some noticeable facts that
 happened during the AoC.
 
+# Day 11
+After 2 very though days, something more manageable. I was quite fast to get to the first
+star, and then I slowed down a bit to get to the second. First I've tried a naive search
+approach, exploring both "regular" DFS and BFS, but that was leading me nowhere since the
+real input was built in such a way that the path was building up quite quickly and traversing
+the whole tree would've taken billions of years. In these kind of problems, thanks to the
+experience I grew playing AoC, it became clear very soon that I needed to find a way to prune
+a number of results. By printing the queue while crunching the non-optimized version of the
+algorithm I've noticed that it would've been possible to disregards entire paths if they were
+not leading nowhere. After Googling a bit, it seemed pretty obvious that the technique to use
+was the `backtracking`. It was fairly easy to adapt a recursive DFS algorithm to this new
+approach. Eventually the whole solutions runs in ~15s, but it is good enough to compute the
+result before the Sun goes out and the Earth stops spinning :) All in all, I was pretty
+satisfied, even though it took a bit to figure out the correct way to implement the idea I had
+in mind. Almost there!
+
 # Day 10
 Incredible problem! I could not believe I had been able to solve the first part of today's
 riddle all by myself :D This denoted a slight improvement in my problem solving ability :)
@@ -124,5 +140,5 @@ Let's begin!
 |8|$\textcolor{gold}{\textsf{**}}$|
 |9|$\textcolor{silver}{\textsf{*}}$|
 |10|$\textcolor{gold}{\textsf{**}}$|
-|11||
+|11|$\textcolor{gold}{\textsf{**}}$|
 |12||
