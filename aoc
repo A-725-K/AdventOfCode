@@ -51,7 +51,7 @@ if (scalar @answer == 0) {
 
   # XXX: when adding here support for additional languages, create also a
   #      a template with the correct extension in the "templates" directory
-  my ($ext, $skip_dir, $dest, $input_dir);
+  my ($ext, $skip_dir, $dest, $input_dir, $cb);
   if ($lang eq 'go') {
     say "Using Golang!";
     $ext = ".go";
@@ -61,14 +61,22 @@ if (scalar @answer == 0) {
   } elsif ($lang eq 'rust') {
     say "Using Rust!";
     $ext = ".rs";
-    $dest = "$year/src/aoc/day$day.rs";
+    $dest = "$year/src/aoc/day$day$ext";
     $skip_dir = 1;
-    $input_dir = "$year/src/inputs/day$day/";
+    $input_dir = "$year/src/inputs/day$day";
 
     open my $f, '>>', "${year}/src/aoc.rs" or die "Cannot open file: $!";
     print $f "pub mod day${day};\n";
     close $f;
     `sed -i '10s/^/    methods.insert(${day}, vec![aoc::day${day}::part1, aoc::day${day}::part2]);\\n/' ${year}/src/main.rs`;
+    mkdir $input_dir, 0755;
+  } elsif ($lang eq 'nim') {
+    say "Using Nim!";
+    $ext = ".nim";
+    $dest = "$year/days/day${day}$ext";
+    $input_dir = "$year/inputs/day$day";
+    $skip_dir = 1;
+    $cb = sub { `sed -i 's/<DAY>/${day}/' ${dest}`; };
     mkdir $input_dir, 0755;
   }
   $input_dir //= $dir;
@@ -82,6 +90,7 @@ if (scalar @answer == 0) {
   `touch $input_dir/mini_input`;
   $dest //= "$dir/day$day$ext";
   copy("templates/dayX$ext", $dest) if $dest;
+  $cb->() if defined $cb;
 
   # Calling the AoC API to fetch the input
   $day =~ s/0// if $day < 10;
